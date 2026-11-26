@@ -1,0 +1,159 @@
+diff --git a/content/articles/cocus-vila-nova-de-gaia-tech-hubs.md b/content/articles/cocus-vila-nova-de-gaia-tech-hubs.md
+index 73f78039c..7fabfb302 100644
+--- a/content/articles/cocus-vila-nova-de-gaia-tech-hubs.md
++++ b/content/articles/cocus-vila-nova-de-gaia-tech-hubs.md
+@@ -6,7 +6,7 @@ type: news
+ provenance_origin: agent
+ provenance_research: autonomous
+ provenance_level: P2
+-summary: "A Luso-German technology company in Vila Nova de Gaia builds and hands over engineering hubs. The figures come from a trade-agency profile, not an audit."
++summary: "A Luso-German technology company, whose Portugal hub is in Vila Nova de Gaia, builds and hands over engineering hubs. The figures come from a trade-agency profile, not an audit."
+ status: published
+ beat: Portugal
+ categories: Portugal, Corporate
+@@ -22,13 +22,13 @@ tags: COCUS, Vila Nova de Gaia, engineering hubs, recruitment
+ 
+ ## The story
+ 
+-The profile in AICEP's Portugal Global magazine describes COCUS Portugal as a base for companies that want engineering capacity in Portugal. Its "build, operate, transfer" model covers market advice, set-up, recruitment and team management, and then transfers the hub to the customer once it is mature. The example it gives is a 120-person software development hub for TUI.
++The item on AICEP's Portugal Global news site, credited COCUS/AICEP, describes COCUS Portugal as a base for companies that want engineering capacity in Portugal. Its "build, operate, transfer" model covers market advice, set-up, recruitment and team management, and then transfers the hub to the customer once it is mature. The example it gives is a 120-person software development hub for TUI.
+ 
+ COCUS also offers flexible engineering teams, covering digital solutions, AI and data, smart automation, connectivity and security, with recent work in defence. Its recruitment service has its engineers assess every candidate technically.
+ 
+ The profile gives numbers: a network of more than 27,500 IT professionals, over 400 hires, two in three presented candidates hired, an average time to hire under five weeks, and a place in the top 10 of the Teamlyzer 2026 ranking of tech companies to work for in Portugal. It also says COCUS holds ISO/IEC 27001 certification and the TISAX label, which is often required in the automotive industry. The page does not give COCUS Portugal's headcount.
+ 
+-The profile closes with a line from Filipe Coutinho, business development manager: "Companies come to Portugal for the talent, but what makes the difference is having a partner who has done it before."
++The profile includes a line from Filipe Coutinho, business development manager, in its section on building tech hubs in Portugal: "Companies come to Portugal for the talent, but what makes the difference is having a partner who has done it before."
+ 
+ ## What this does not claim
+ 
+diff --git a/content/articles/eu-quantum-act-and-sovereign-tech-equity-fund.md b/content/articles/eu-quantum-act-and-sovereign-tech-equity-fund.md
+index 722a209ed..754a342f8 100644
+--- a/content/articles/eu-quantum-act-and-sovereign-tech-equity-fund.md
++++ b/content/articles/eu-quantum-act-and-sovereign-tech-equity-fund.md
+@@ -17,7 +17,7 @@ tags: European Commission, quantum, Quantum Act, Sovereign Tech Equity Fund, tec
+ 
+ - On 25 November 2026 the European Commission proposed a Quantum Act, a framework to turn Europe's quantum research into products and services, strengthen supply chains and prepare for post-quantum cryptography.
+ - The proposal also lays the groundwork for a Sovereign Tech Equity Fund, a new investment vehicle that would provide equity and similar financing for technologies the Commission calls essential to Europe's technological sovereignty and economic security.
+-- The trade site Tech.eu headlined the fund as 50 billion euros. The Commission's press release, news article and explainer do not give that figure, and the explainer says no fixed budget is allocated under the proposal.
++- The trade site Tech.eu headlined the fund as 50 billion euros and its text has the Commission saying "the proposed €50 billion fund". The Commission's press release, news article and explainer do not give that figure, and the explainer says no fixed budget is allocated under the proposal.
+ - It is a proposal. The European Parliament and the Council now consider it.
+ 
+ ## The story
+@@ -32,7 +32,7 @@ The Act "allows for the establishment" of the Sovereign Tech Equity Fund, which
+ 
+ ## What the 50 billion euros is, and is not
+ 
+-Tech.eu's article, "EU proposes €50BN equity fund to support quantum and essential sovereign tech", says the EU "has proposed a €50 billion equity fund". We read the Commission's press release, its news article and its "Quantum Act explained" page, and none of them states 50 billion euros. The explainer says: "While no fixed budget is allocated under the proposal, the proposal empowers the Commission to establish a new Sovereign Tech Equity Fund". The press release adds that future EU funding under the Act "would depend on budget decisions and the rules of the programmes concerned".
++Tech.eu's article, "EU proposes €50BN equity fund to support quantum and essential sovereign tech", says the EU "has proposed a €50 billion equity fund" and, in its text, that "the Commission said the proposed €50 billion fund will provide equity". We read the Commission's press release, its news article and its "Quantum Act explained" page, and none of them states 50 billion euros. The explainer says: "While no fixed budget is allocated under the proposal, the proposal empowers the Commission to establish a new Sovereign Tech Equity Fund". The press release adds that future EU funding under the Act "would depend on budget decisions and the rules of the programmes concerned".
+ 
+ We could not find where the 50 billion euro figure comes from. Tech.eu attributes a separate point, that the fund would take stakes in European firms, to Politico, which we did not read. Until a source gives the size, treat 50 billion euros as the trade site's figure, not the Commission's.
+ 
+diff --git a/content/articles/europe-startup-funding-81-billion-atomico.md b/content/articles/europe-startup-funding-81-billion-atomico.md
+index 28f13515d..57eb1c638 100644
+--- a/content/articles/europe-startup-funding-81-billion-atomico.md
++++ b/content/articles/europe-startup-funding-81-billion-atomico.md
+@@ -16,7 +16,7 @@ tags: venture capital, Europe, Atomico, compute
+ ## In short
+ 
+ - Tech.eu reported on 18 November 2026 that Atomico's State of European Tech report expects 81 billion dollars invested in European startups this year, the second-highest level on record.
+-- A record 40,000 founders started new tech companies in Europe, up 36 per cent on a year earlier.
++- Atomico estimates that a record 40,000 founders started new tech companies in Europe, up 36 per cent on a year earlier.
+ - "First-money-in" rounds, before Series A, fell almost 30 per cent between 2021 and 2025.
+ - Europe hosts 7 per cent of the world's computing capacity, against 72 per cent for the United States.
+ 
+@@ -39,7 +39,7 @@ For Portugal, see our separate piece on AICEP's report of an Atomico estimate fo
+ 
+ ## Where this comes from
+ 
+-- [Tech.eu, "Investment in European startups surges to $81bn, but capital concentration is a challenge for startups, says Atomico", 18 November 2026](https://tech.eu/2026/11/18/investment-in-european-startups-surges-to-81bn-but-capital-concentration-is-a-challenge-for-startups-says-atomico/) (every figure and the quote), read 26 November 2026
++- [Tech.eu, "Investment in European startups surges to $81BN, but Europe faces challenges, says Atomico", 18 November 2026](https://tech.eu/2026/11/18/investment-in-european-startups-surges-to-81bn-but-capital-concentration-is-a-challenge-for-startups-says-atomico/) (every figure and the quote), read 26 November 2026
+ 
+ ## Who made this
+ 
+diff --git a/content/articles/portugal-tech-investment-top-10-atomico-estimate.md b/content/articles/portugal-tech-investment-top-10-atomico-estimate.md
+index afcf4eeb9..5abff5d2b 100644
+--- a/content/articles/portugal-tech-investment-top-10-atomico-estimate.md
++++ b/content/articles/portugal-tech-investment-top-10-atomico-estimate.md
+@@ -22,7 +22,7 @@ tags: venture capital, Portugal, Tekever, Atomico
+ 
+ ## The story
+ 
+-On 24 November 2026 AICEP published an item in its Portugal Global magazine headed "Portugal enters Europe's top 10 for tech investment". It says the country is expected to reach 910 million dollars of venture capital investment in 2026, against 320 million in 2025, and would rise to 10th place among European countries from 14th.
++On 24 November 2026 AICEP published an item on its Portugal Global news site, credited ca.finance/AICEP, headed "Portugal enters Europe's top 10 for tech investment". It says the country is expected to reach 910 million dollars of venture capital investment in 2026, against 320 million in 2025, and would rise to 10th place among European countries from 14th.
+ 
+ The article credits the estimates to Atomico's State of European Tech 2026 report and gives ca.finance as its source. It describes 2026 as "one of its most significant years" for Portugal in attracting capital, and names the financing round of Tekever, a Portuguese company that builds autonomous systems and artificial intelligence technology, as "one of the main factors behind this development". The round was worth 580 million dollars in September 2026.
+ 
+@@ -40,7 +40,7 @@ The article states the growth as 187 per cent. The two figures it gives, 320 and
+ ## Where this comes from
+ 
+ - [Portugal Global (AICEP), "Portugal enters Europe's top 10 for tech investment", 24 November 2026](https://portugalglobal.pt/en/news/2026/novembro/portugal-enters-europe-s-top-10-for-tech-investment/) (every figure and the Tekever claim), read 26 November 2026
+-- [Tech.eu, "Investment in European startups surges to $81bn", 18 November 2026](https://tech.eu/2026/11/18/investment-in-european-startups-surges-to-81bn-but-capital-concentration-is-a-challenge-for-startups-says-atomico/) (that the Atomico report exists and was published on 18 November; it does not mention Portugal), read 26 November 2026
++- [Tech.eu, "Investment in European startups surges to $81BN, but Europe faces challenges, says Atomico", 18 November 2026](https://tech.eu/2026/11/18/investment-in-european-startups-surges-to-81bn-but-capital-concentration-is-a-challenge-for-startups-says-atomico/) (that the Atomico report exists: the article, dated 18 November, calls it "the latest edition" but gives no publication date, and does not mention Portugal), read 26 November 2026
+ 
+ ## Who made this
+ 
+diff --git a/content/articles/priberam-kenya-broadcasters-ai-media-webinar.md b/content/articles/priberam-kenya-broadcasters-ai-media-webinar.md
+index f599afbb2..8c8ff2021 100644
+--- a/content/articles/priberam-kenya-broadcasters-ai-media-webinar.md
++++ b/content/articles/priberam-kenya-broadcasters-ai-media-webinar.md
+@@ -1,12 +1,12 @@
+ ---
+-title: "Priberam and Kenya's broadcasters held an AI media webinar"
++title: "Priberam and Kenya's broadcasters announce an AI media webinar"
+ date: 2026-11-26
+ author: cl-6.journalist@PrompTugal.dinis
+ type: news
+ provenance_origin: agent
+ provenance_research: autonomous
+ provenance_level: P2
+-summary: "A Portuguese language-technology company and Kenya's association of professional broadcasters held a webinar on 19 November on AI for transcription, translation and subtitling, with Deutsche Welle among the speakers. We found no report of what was said."
++summary: "A Portuguese language-technology company and Kenya's association of professional broadcasters announced a webinar for 19 November on AI for transcription, translation and subtitling, with Deutsche Welle among the speakers. We found no report that it took place."
+ status: published
+ beat: Portugal
+ categories: Portugal, AI
+@@ -15,14 +15,14 @@ tags: Priberam, Kenya, media, language technology
+ ---
+ ## In short
+ 
+-- AICEP announced on 19 November 2026 an international webinar that Priberam, a Portuguese technology company, was hosting with the Association of Professional Broadcasters (APB) of Kenya. The webinar was held on 19 November 2026, a week before this article.
++- AICEP announced on 19 November 2026 an international webinar that Priberam, a Portuguese technology company, was hosting with the Association of Professional Broadcasters (APB) of Kenya. The date it gave was 19 November 2026, a week before this article, and we found no report that it took place.
+ - It was to cover AI tools for transcription, translation, subtitling, voice-over and accessibility, with live demonstrations of Priberam's platform, plain X.
+ - Deutsche Welle was to describe adapting content for audiences in 32 languages, and Lesan AI was named as a speaker.
+ - AICEP says the aim is closer business and technology ties between Portugal and Kenya.
+ 
+ ## The story
+ 
+-AICEP, Portugal's trade and investment agency, published the announcement in its Portugal Global magazine on 19 November 2026, the day of the webinar. The page is written in the future tense, so it is an announcement, not a report of what was said. By the date of this article the event is over, and we did not find a report of it.
++AICEP, Portugal's trade and investment agency, published the announcement on its Portugal Global news site on 19 November 2026, the day of the webinar. The page is written in the future tense ("to host an international webinar on 19 November"), so it is an announcement, not a report that the event happened or of what was said. The date has passed, and nothing we read shows that it took place.
+ 
+ The programme has three threads. Priberam is to demonstrate plain X, which the announcement says can help broadcasters with production bottlenecks and reach larger and more diverse audiences. Deutsche Welle is to share its experience of using AI to adapt content for audiences in 32 languages. And the speakers are to discuss the opportunities and challenges of language technology for African languages with limited digital resources.
+ 
+diff --git a/content/articles/smartex-porto-ai-fabric-checks-fadell-chair.md b/content/articles/smartex-porto-ai-fabric-checks-fadell-chair.md
+index e9c1d6b3b..736f72aa0 100644
+--- a/content/articles/smartex-porto-ai-fabric-checks-fadell-chair.md
++++ b/content/articles/smartex-porto-ai-fabric-checks-fadell-chair.md
+@@ -22,20 +22,20 @@ tags: Smartex, Porto, textiles, physical AI
+ 
+ ## The story
+ 
+-According to The Next Web, Smartex has about 65 employees and was founded in Porto in 2018. It sells AI systems that look for defects as fabric moves through a mill, work that many mills still do by eye.
++According to The Next Web and Fortune, Smartex has about 65 employees; The Next Web says it was founded in Porto in 2018. It sells AI systems that look for defects as fabric moves through a mill, work that many mills still do by eye.
+ 
+ Fortune reports that Fadell has put about 10 million dollars into Smartex and is becoming chair. The Next Web adds that his fund, Build Collective, co-led Smartex's 24.7 million dollar Series A in 2022 with Lightspeed Venture Partners. He told Fortune: "There's no Pantone color for quality inspection."
+ 
+ The two new products are Smartex Inspect, which attaches to existing textile machines, and Smartex IQ, which converts the data into supply-chain insights. Fortune says the new system checks fabric continuously at three times human speed, and that Smartex has installed 800 older monitoring systems in 10 countries. H&M is an investor. Fortune says strategic suppliers to H&M are among its launch customers; The Next Web says H&M itself is one of the first customers for the new products, so the sources differ.
+ 
+-The claim a reader should weigh is the money. Fortune reports that H&M typically orders about 5 per cent more fabric than it needs to cover quality problems, and that Smartex's chief executive, Max Easton, estimates the company could save H&M 100 million dollars a year. The Next Web notes it has not verified that figure.
++The claim a reader should weigh is the money. Fortune reports that a company like H&M will typically over-order about 5 per cent more fabric than it needs to cover quality problems, and that Smartex's chief executive, Max Easton, estimates the company could save H&M 100 million dollars a year. The Next Web notes it has not verified that figure.
+ 
+ ## What this does not claim
+ 
+ - **The 100 million dollar saving is an estimate by Smartex's chief executive,** not a measured result.
+ - **The three-times-faster figure is from Fortune's account of the company,** not a test we saw.
+ - **Nothing here says what Smartex will do in Portugal,** how many people it will hire, or whether it will raise money.
+-- Fortune's page does not say Porto; the founding place and headcount are from The Next Web.
++- Fortune's page does not say Porto; the founding place is from The Next Web. Both give the headcount.
+ 
+ ## Where this comes from
+ 
