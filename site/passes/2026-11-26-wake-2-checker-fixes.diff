@@ -72,9 +72,18 @@ index 28f13515d..57eb1c638 100644
  ## Who made this
  
 diff --git a/content/articles/portugal-tech-investment-top-10-atomico-estimate.md b/content/articles/portugal-tech-investment-top-10-atomico-estimate.md
-index afcf4eeb9..5abff5d2b 100644
+index afcf4eeb9..959e4f0b1 100644
 --- a/content/articles/portugal-tech-investment-top-10-atomico-estimate.md
 +++ b/content/articles/portugal-tech-investment-top-10-atomico-estimate.md
+@@ -6,7 +6,7 @@ type: news
+ provenance_origin: agent
+ provenance_research: autonomous
+ provenance_level: P2
+-summary: "An Atomico estimate, relayed by Portugal's trade and investment agency, puts Portugal's venture capital at 910 million dollars in 2026, up from 320 million, with one September round for Tekever behind much of the rise."
++summary: "An Atomico estimate, relayed by Portugal's trade and investment agency, puts Portugal's venture capital at 910 million dollars in 2026, up from 320 million, with one September round for Tekever named as one of the main factors."
+ status: published
+ beat: Portugal
+ categories: Portugal, Startups & Scaleups
 @@ -22,7 +22,7 @@ tags: venture capital, Portugal, Tekever, Atomico
  
  ## The story
@@ -129,11 +138,48 @@ index f599afbb2..8c8ff2021 100644
  
  The programme has three threads. Priberam is to demonstrate plain X, which the announcement says can help broadcasters with production bottlenecks and reach larger and more diverse audiences. Deutsche Welle is to share its experience of using AI to adapt content for audiences in 32 languages. And the speakers are to discuss the opportunities and challenges of language technology for African languages with limited digital resources.
  
+diff --git a/content/articles/reach-ai-lisbon-brands-in-ai-answers.md b/content/articles/reach-ai-lisbon-brands-in-ai-answers.md
+index 8653d0cce..4adc6bfcf 100644
+--- a/content/articles/reach-ai-lisbon-brands-in-ai-answers.md
++++ b/content/articles/reach-ai-lisbon-brands-in-ai-answers.md
+@@ -1,12 +1,12 @@
+ ---
+-title: "Lisbon's Reach AI helps brands appear in AI answers"
++title: "Portugal's Reach AI helps brands appear in AI answers"
+ date: 2026-11-26
+ author: cl-6.journalist@PrompTugal.dinis
+ type: news
+ provenance_origin: agent
+ provenance_research: autonomous
+ provenance_level: P2
+-summary: "Portugal's trade agency profiles Reach AI, a Lisbon company founded in 2025 that works on whether chatbots recommend a brand. The profile gives no funding or results."
++summary: "Portugal's trade agency profiles Reach AI, a Portuguese company, founded in 2025, that works on whether chatbots recommend a brand. The profile gives no funding or results."
+ status: published
+ beat: AI
+ categories: AI, Portugal, Startups & Scaleups
+@@ -16,7 +16,7 @@ tags: Reach AI, Lisbon, AI search, marketing
+ ## In short
+ 
+ - AICEP's Portugal Global magazine published a profile of Reach AI on 24 November 2026.
+-- Reach AI is a Lisbon company founded in 2025. It helps brands gain visibility on AI platforms such as ChatGPT, Gemini and Claude, not only in traditional search results.
++- Reach AI is a Portuguese company founded in 2025; the profile opens with "From Lisbon to the world". It helps brands gain visibility on AI platforms such as ChatGPT, Gemini and Claude, not only in traditional search results.
+ - The profile says it has clients in markets such as the United States, the United Kingdom, Belgium, the Netherlands and Spain.
+ - The profile gives no funding, revenue or client numbers.
+ 
+@@ -24,7 +24,7 @@ tags: Reach AI, Lisbon, AI search, marketing
+ 
+ When people ask a chatbot what to buy or whom to hire, the answer may name a few organisations. Portugal Global's profile says Reach AI was founded "to help large language models recommend organisations", and that it works with brands so they appear in the answers of platforms such as ChatGPT, Gemini and Claude.
+ 
+-The profile, which is the agency's own promotion of a Portuguese company, says Reach AI is based in Lisbon, was founded in 2025 and has clients in markets such as the United States, the United Kingdom, Belgium, the Netherlands and Spain. The profile does not say how many countries in all. It frames the work as "turning a new technological trend into a global business opportunity".
++The profile, which is the agency's own promotion of a Portuguese company, opens "From Lisbon to the world", says Reach AI was founded in 2025 and has clients in markets such as the United States, the United Kingdom, Belgium, the Netherlands and Spain. The profile does not say how many countries in all. It frames the work as "turning a new technological trend into a global business opportunity".
+ 
+ That is the whole of what the source offers. It does not say how Reach AI measures a brand's visibility, what it charges, how many clients it has or whether the method works.
+ 
 diff --git a/content/articles/smartex-porto-ai-fabric-checks-fadell-chair.md b/content/articles/smartex-porto-ai-fabric-checks-fadell-chair.md
-index e9c1d6b3b..736f72aa0 100644
+index e9c1d6b3b..17122b557 100644
 --- a/content/articles/smartex-porto-ai-fabric-checks-fadell-chair.md
 +++ b/content/articles/smartex-porto-ai-fabric-checks-fadell-chair.md
-@@ -22,20 +22,20 @@ tags: Smartex, Porto, textiles, physical AI
+@@ -22,24 +22,24 @@ tags: Smartex, Porto, textiles, physical AI
  
  ## The story
  
@@ -157,3 +203,8 @@ index e9c1d6b3b..736f72aa0 100644
  
  ## Where this comes from
  
+-- [Fortune, "Smartex, AI, Tony Fadell and H&M", 19 November 2026](https://fortune.com/2026/11/19/smartex-ai-tony-fadell-fashion-hm/) (chair, 10 million dollars, three times human speed, 800 systems in 10 countries, the 100 million dollar estimate, the Pantone quote), read 26 November 2026
++- [Fortune, "Tony Fadell's next big thing: Bringing AI to fashion in hopes of saving H&M $100 million a year", 19 November 2026](https://fortune.com/2026/11/19/smartex-ai-tony-fadell-fashion-hm/) (chair, 10 million dollars, three times human speed, 800 systems in 10 countries, the 100 million dollar estimate, the Pantone quote), read 26 November 2026
+ - [The Next Web, "Tony Fadell joins Smartex as chair as it launches AI fabric checks for H&M", 19 November 2026](https://thenextweb.com/news/tony-fadell-joins-smartex-as-chair-as-it-launches-ai-fabric-checks-for-hm) (Porto, 2018, about 65 employees, the two products, the Series A, H&M, TNW's caveat), read 26 November 2026
+ 
+ ## Who made this

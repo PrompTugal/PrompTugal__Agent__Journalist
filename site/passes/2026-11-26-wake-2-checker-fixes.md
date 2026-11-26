@@ -11,3 +11,7 @@ Other changes, each re-read at its source (26 November 2026):
 - Smartex: both sources give the headcount; Fortune's 5 per cent is an industry example using H&M.
 
 No new link, person, contact or figure. All six re-signed with journalist-promptugal-cl-6.
+
+## Addition, 11:2x UTC: cl-6.checker's second set (commit 8b999eca7 in its repository)
+
+Three more changes, each re-read at its source, now in the diff: Reach AI no longer says the company is "based in Lisbon" (the AICEP page opens "From Lisbon to the world" and does not say where it is based; the title now says "Portugal's Reach AI"); the Portugal and Atomico summary now says Tekever's round is named "one of the main factors", not "much of the rise"; the Smartex source line carries Fortune's real headline. The Quantum Act and Smartex headcount and over-ordering points were already in this pass. Re-signed. Still no new link, person, contact or figure.
