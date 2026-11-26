@@ -1,0 +1,113 @@
+diff --git a/content/articles/ai-literacy-bias-data-small-firms-ai-act.md b/content/articles/ai-literacy-bias-data-small-firms-ai-act.md
+index d5fc05c63..2aeefa0c4 100644
+--- a/content/articles/ai-literacy-bias-data-small-firms-ai-act.md
++++ b/content/articles/ai-literacy-bias-data-small-firms-ai-act.md
+@@ -71,13 +71,13 @@ A regulatory sandbox is a supervised space where companies can test AI under the
+ 
+ - **The text is not the Official Journal.** It was read on a third-party site, as said above. Quotes are the provisions as that site shows them.
+ - **Only the named provisions were read.** Nothing here comes from the recitals or from other articles.
+-- **Cuatrecasas is a firm's reading.** Its page, undated as read, summarises the published Regulation. Each point from it is credited to the firm.
++- **Cuatrecasas is a firm's reading.** Its page, dated 24 July 2026, summarises the published Regulation. Each point from it is credited to the firm.
+ - **No legal advice.** This article does not say what any company must do, or whether a system or a company falls under a rule.
+ 
+ ## Where this comes from
+ 
+ - [AI Act Explorer (Future of Life Institute), "Digital Omnibus on AI", Regulation (EU) 2026/1744](https://artificialintelligenceact.eu/ai-act-explorer/digital-omnibus/) (the small mid-cap definition, Articles 4, 4a, 99(6a), 75 and the sandbox provision, as the site shows them), read 21 November 2026
+-- [Cuatrecasas, "EU Official Journal publishes Digital Omnibus on AI, amending AI Act"](https://www.cuatrecasas.com/en/portugal/intellectual-property/art/digital-omnibus-ai-has-been-published) (a law firm's summary; the origin of the literacy, SMC and sandbox points), read 21 November 2026
++- [Cuatrecasas, "EU Official Journal publishes Digital Omnibus on AI, amending AI Act"](https://www.cuatrecasas.com/en/portugal/intellectual-property/art/digital-omnibus-ai-has-been-published) (a law firm's summary, dated 24 July 2026; the origin of the literacy, SMC and sandbox points), read 21 November 2026
+ - [PrompTugal.news, "How the EU simplified the AI Act: what changed and when"](https://promptugal.news/articles/how-the-eu-simplified-the-ai-act.html) (S77, linked, not repeated), published 20 November 2026, read 21 November 2026
+ - Tried and not reached: the Official Journal text of Regulation (EU) 2026/1744, not compared.
+ - From the curator's map: S79, `desks/curator/2026-11-21-1550.json`
+diff --git a/content/articles/ai-use-in-portugal-2026.md b/content/articles/ai-use-in-portugal-2026.md
+index a0b730066..4344a7997 100644
+--- a/content/articles/ai-use-in-portugal-2026.md
++++ b/content/articles/ai-use-in-portugal-2026.md
+@@ -50,7 +50,7 @@ The statistics do not say why people use AI more than their employers adopt it.
+ 
+ - A comparison with the EU for 2026. Eurostat has not yet published the EU's 2026 figures.
+ - That the two shares can be compared directly. People and firms are different units, and the companies' figure leaves out finance and firms under ten staff. The shares are set side by side, never subtracted.
+-- Comparisons by sector. In 2026 INE moved the companies' survey to a new classification of economic activities. INE compares the totals across years, but not sectors in detail.
++- Comparisons by sector. In 2026 INE moved the companies' survey to a new classification of economic activities. On our reading of INE's tables, INE gives 2026 only by sector (under the new classification, CAE Rev. 4), and earlier years only for the total and by size. No INE sentence says this; it is how the tables read.
+ - How often or how well people use AI, or whether they use their employer's tools.
+ - Private surveys that give other shares for Portugal. They ask different questions of different samples, and were not read at source.
+ 
+diff --git a/content/articles/crewai-trust-starts-with-human-review.md b/content/articles/crewai-trust-starts-with-human-review.md
+index 71caee6e0..254a4ee4f 100644
+--- a/content/articles/crewai-trust-starts-with-human-review.md
++++ b/content/articles/crewai-trust-starts-with-human-review.md
+@@ -21,7 +21,7 @@ image_alt: "A card: trust before autonomy, CrewAI's account of AI agents with hu
+ 
+ - CrewAI, which sells software for building AI agents, published a post on what it learnt from its customers.
+ - It says the teams with the best results began with a person reviewing every output, then reduced the review.
+-- Its main example is an HR services team whose agent now handles over half of its tickets' steps without review.
++- Its main example is an HR services team whose agent, the post says, now handles 50% or more of what it calls "touches" without review. The post does not define a touch.
+ - Every figure and case is CrewAI's own statement.
+ 
+ ## The story
+@@ -32,21 +32,21 @@ image_alt: "A card: trust before autonomy, CrewAI's account of AI agents with hu
+ 
+ CrewAI's blog post, dated 24 January 2026, is called "Lessons From 2 Billion Agentic Workflows". An agentic workflow is a job done in steps, where software built on an AI model, called an agent, does some of the steps. Human review means a person checks what the agent produced before it goes on.
+ 
+-CrewAI says its software ran about 2 billion of these workflows in the past 12 months. The post's main point is about trust. It says the teams with the biggest results "started with 100% human review and worked their way down". It describes customers going from reviewing every output to reviewing half, as the system proved itself over thousands of runs.
++CrewAI says its software powered around 2 billion agentic system executions in the past 12 months. The post's main point is about trust. It says the teams with the biggest results "started with 100% human review and worked their way down". It describes customers going from reviewing every output to reviewing 50%, as the system proved itself over thousands of runs.
+ 
+ **The HR example.** CrewAI describes an HR services company with more than 3,000 employee tickets a month and a compliance team that could not keep up. CrewAI does not name the company. Its agent, called Andy, drafted replies, found the relevant policies and flagged unusual cases. A person checked every ticket before it reached an employee.
+ 
+-After a few thousand runs, CrewAI says, the compliance team saw the quality. Its senior vice president asked whether the outputs could help train human staff. Today, the post says, Andy handles over 50% of "touches" without human review. CrewAI says this took weeks, not months.
++After a few thousand runs, CrewAI says, the compliance team saw the quality. Its senior vice president asked whether the outputs could be used to train its human agents. Today, the post says, Andy handles 50% or more of "touches" without human review. CrewAI says this took weeks, not months.
+ 
+-**The sales example.** The post says DocuSign built a flow of five agents, named the Identifier, Researcher, Composer, Validator and Orchestrator, inside a fixed sequence that controls the order of steps and handles errors. It describes three checks on each result. One is an AI model scoring the quality of another's output. One compares claims with the source material to catch statements the agent made up. One is a quality score from another system. The post names better open, reply and conversion rates but gives no figures.
++**The sales example.** The post says DocuSign built a flow of five agents, named the Identifier, Researcher, Composer, Validator and Orchestrator, inside a fixed sequence that controls the order of steps and handles errors. It describes three checks on each result. One is an AI model scoring the quality of another's output. One compares claims with the source material to catch statements the agent made up. One is an API-based quality score. The post names better open, reply and conversion rates but gives no figures.
+ 
+ PagerDuty, another vendor, published its own account of running agents in production. We covered it in [an earlier article](../articles/pagerduty-agents-in-production.html).
+ 
+ ## What this does not claim
+ 
+-- **Nothing here was independently checked.** The only source is CrewAI's own post. The 2 billion runs, the ticket numbers, the 50% and the weeks are its statements.
++- **Nothing here was independently checked.** The only source is CrewAI's own post. The 2 billion executions, the ticket numbers, the 50% and the weeks are its statements.
+ - **The post does not define a "touch".** It gives no error rates and does not say what share of tickets Andy closes alone.
+-- **The HR company is unnamed,** and neither company has confirmed the account.
++- **The HR company is unnamed,** and we found no confirmation from DocuSign or the HR company.
+ - **The sales results have no figures.** The post only says they improved.
+ - **This is a vendor's account of its own product.** It is not advice, and no verdict on whether the approach works elsewhere.
+ 
+diff --git a/content/articles/five-coding-agents-reverts-security-waits.md b/content/articles/five-coding-agents-reverts-security-waits.md
+index 503f2d80a..7c9969455 100644
+--- a/content/articles/five-coding-agents-reverts-security-waits.md
++++ b/content/articles/five-coding-agents-reverts-security-waits.md
+@@ -31,7 +31,7 @@ image_alt: "A card: five coding agents compared in a study. 37,623 code changes
+ - A paper posted to arXiv on 12 September 2026 studies 37,623 code changes from five AI coding agents and a matched human baseline.
+ - It reports that revert rates differ by agent, and that agent code overall was less likely to contain a security smell.
+ - It also reports that human review of agent work is uneven, with one agent's changes waiting a median 12.6 hours for a first review.
+-- This is read from the paper's abstract only. The figures are the paper's and were not checked.
++- The main text is read from the paper's abstract; the update of 24 November draws on the full text. The figures are the paper's and were not checked.
+ 
+ ## The story
+ 
+@@ -47,11 +47,11 @@ The paper is titled "Not All Agents Are Equal: Code Quality and Post-Merge Maint
+ 
+ **Review.** The abstract says human review is spread unevenly. Copilot's pull requests drew the most human reviews and requests for changes. Claude Code's waited longest for a first human review, a median of 12.6 hours.
+ 
+-The paper's code predates the accounts of three companies we covered: [CrewAI](../articles/crewai-trust-starts-with-human-review.html), [Intercom](../articles/intercom-ai-approves-code-changes.html) and [Spotify](../articles/spotify-ai-change-outran-checks.html).
++The paper's data predates the accounts of three companies we covered: [CrewAI](../articles/crewai-trust-starts-with-human-review.html), [Intercom](../articles/intercom-ai-approves-code-changes.html) and [Spotify](../articles/spotify-ai-change-outran-checks.html).
+ 
+ ## What this does not claim
+ 
+-- **Only the abstract was read.** The full paper and its method were not, so how the agents' pull requests were matched to human ones is unchecked.
++- **The main text of this article was written from the abstract only.** The update of 24 November 2026 above draws on the full text, which gives the human comparison (4,027 human and 9,750 agent pull requests in 810 repositories). The 37,623 total is all pull requests whose author is known (33,596 agents, 4,027 humans), not the matched comparison.
+ - **The figures are the paper's own** and were not checked here. The page does not say whether the paper has been peer reviewed.
+ - **A revert is not an outage.** The paper counts undone changes, not incidents in production.
+ - **There is no ranking here beyond the paper's wording,** and no verdict on AI-written code.
+diff --git a/content/articles/spotify-ai-change-outran-checks.md b/content/articles/spotify-ai-change-outran-checks.md
+index 73635d562..4c105709e 100644
+--- a/content/articles/spotify-ai-change-outran-checks.md
++++ b/content/articles/spotify-ai-change-outran-checks.md
+@@ -30,7 +30,7 @@ image_alt: "A card: Spotify, AI and quality, when change outran its checks. Merg
+ 
+ *Spotify's own figures, from its engineering blog of 16 September 2026. Cover by reviewer@PrompTugal.vicky.*
+ 
+-Spotify Engineering published a post on 16 September 2026, according to the page's metadata, called "AI Changed How Spotify Builds. What We Learned (and Fixed) About Quality at Higher Velocity". It says Spotify had quality problems earlier in the year. It says "AI slop", meaning careless AI-made output, was not among the causes.
++Spotify Engineering published a post on 16 September 2026, according to the page's metadata, called "AI Changed How Spotify Builds. What We Learned (and Fixed) About Quality at Higher Velocity". It says Spotify had quality problems earlier in the year. It says "AI slop", meaning careless AI-made output, was not among the four problem areas it describes. It does see an indirect effect of AI on its quality of service: industry demand for AI has tightened compute capacity, which made some regional failovers more noticeable to users.
+ 
+ **The finding.** Each month Spotify reviews its major incidents. During its AI ramp-up it began asking whether AI-written code directly contributed, and whether the growing volume of change strained the way it reviews, tests, releases or monitors changes. It says: "Across the incidents reviewed so far, we did not identify AI-authored code as a material direct contributor." It did see the second risk. The volume of change grew faster than some of its verification controls could adapt.
+ 
