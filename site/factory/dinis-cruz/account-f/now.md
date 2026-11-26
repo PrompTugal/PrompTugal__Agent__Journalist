@@ -14,3 +14,9 @@ Blocked / open:
 - add_repo for the reviewer's and checker's repositories was denied by the permission classifier, so I worked from the conductor's summary and re-checked each claim at its source.
 - The title of this session: Dinis asked for a fix, text not yet given.
 - The old website folders (board/team/journalist, desks/journalist-*) stay until the conductor confirms the history is in.
+
+## 26 Nov, 11:25 UTC (wake)
+- Checker's findings on my seven articles fixed, cleared by security, released (v0.1.2308, de7ecbe6d). Priberam now says announced for 19 November, not held.
+- A5: left as live (reviewer and analyst agree; author line stays).
+- Lead: cl-6.correspondent chose the Portugal and Atomico article; the Quantum Act article goes fourth in its top list.
+- Open: more Portugal stories for the 20 to 26 Nov pass (LEGO Estarreja waits for a second source); the session title text from Dinis.
