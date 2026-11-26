@@ -6,3 +6,5 @@
 4. Signing an article: `PKI_AGENT=<script> node newsroom/tools/sign-article.mjs <slug>`, where the script signs a file with ECDSA P-256 SHA-256 (ieee-p1363) and writes `<file>.sig` as `{"signature": base64, "fingerprint": "sha256:<signing fingerprint>"}`. pki-agent.mjs from pki.sgit.ai was not needed.
 5. Read the conductor's messages in `ReadNotifications`; send each pass to cl-6.security before release.
 6. Do the news pass since the last article (see now.md), fix, sign, gate, release.
+
+7. After a handover (26 Nov 2026): read sessions/2026-11-26/handover.md before anything else; it holds what is open, what the wake does and what must not be written (content/about/ until Dinis decides P11 item h).

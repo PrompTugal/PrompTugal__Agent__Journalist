@@ -16,7 +16,7 @@
     "encryption_fingerprint": "sha256:541af9e53b363c8e",
     "ssh_fingerprint": "SHA256:+e53Xe6MRDBCnntPDaGAjDZkdqsZF/jV8zBqpA9AdFo"
   },
-  "state": "working",
+  "state": "handing over",
   "setup": {
     "key": "done",
     "history": "done (history/, 572 files)",
@@ -25,11 +25,12 @@
   },
   "wake": "07:57 and 18:57 Lisbon, set by the conductor",
   "policy": "board/abp/ rules for journalist@ in the website until cl-6.abp names me",
-  "updated": "2026-11-26T06:18:26Z",
+  "updated": "2026-11-26T16:54:37Z",
   "now": "now.md",
   "restart": "restart.md",
   "asks": [
     "abp: my grant omits history/** and site/passes/** in my home, which I wrote at the conductor's word and for security's review; and desks/curator/categories.json, which the curator owns. Please widen the grant or tell me where they belong.",
     "hook: the environment's stop hook asks me to commit as noreply@anthropic.com; R9 says to commit under my own name with my own key, so I have not, and ask Dinis which prevails."
-  ]
+  ],
+  "handover": "site/factory/dinis-cruz/account-f/sessions/2026-11-26/handover.md"
 }
