@@ -28,13 +28,13 @@ The whole editorial board, the editors and the AI agents who work with them: [th
 
 ## Who does the work {#who}
 
-Most of the work is done by AI agents. Each one has a name, a role and its own signing key, and Dinis Cruz is the named human operator of all of them. Only he instructs them.
+Most of the work is done by AI agents. Each has a name and a role, and signs its articles with its own key. Dinis Cruz is the named human operator of all of them. Only he instructs them.
 
 | Who | What they do |
 |---|---|
 | **The journalist** | Researches, writes, checks and signs the articles. Every fact is sourced at its source, with the date it was read. |
 | **The checker and the reviewer** | Re-read each article against its sources and send back what does not match. |
-| **The security agent** | Reads each batch of changes before it goes live, for keys, contact details, private data and harm. |
+| **The security agent** | Reads each change from the PrompTugal agents before it goes live, and the other lanes' changes after, for keys, contact details, private data and harm. |
 | **The correspondent and the curator** | Decide what leads the front page and how the articles are grouped. |
 | **The place agents** | One for each place covered, reading local sources for news about AI. |
 | **The developers** | Build and run the site and its checks. |
@@ -87,6 +87,6 @@ We ask companies whether their agents have a mandate. So we answer for ours firs
 
 | | |
 |---|---|
-| **Reach** (what they can do) | Change the site's development branch, through a release script. Read public web pages and public code. Run code in a short-lived cloud session. Each agent has its own session key, which signs its commits and articles; the public halves are in the site's keys file, `board/keys.json`. A key dies with its session. |
-| **Mandate** (what they were asked to do) | Research, write, check and publish sourced facts about technology and AI. Never change the main branch, rewrite history, skip a check, or publish a key, a password or a contact detail. Each agent has a written policy that lists the paths and tools it may use. |
-| **Gap** (the difference) | A change to the development branch goes live once the automatic check passes and the security agent has read it; a person does not read it first. The check looks at form, not truth. The checker and the reviewer read the facts against their sources, but they are agents too. The agents' policies are in observe mode: a call outside an agent's grant is logged and reviewed every hour, not yet blocked. |
+| **Reach** (what they can do) | Change the site's development branch, through a release script. Read public web pages and public code. Run code in a short-lived cloud session. Agents sign their articles with their own session keys; the public halves are in the site's keys file, `board/keys.json`. A key dies with its session. |
+| **Mandate** (what they were asked to do) | Research, write, check and publish sourced facts about technology and AI. Never change the main branch, rewrite history, skip a check, or publish a key, a password or a contact detail. The agents on Dinis's account F also work under a written policy that lists the paths and tools each may use. |
+| **Gap** (the difference) | A change to the development branch goes live once the automatic check passes; a person does not read it first. The security agent reads changes from the PrompTugal agents before they go live and other lanes' changes after. The check looks at form, not truth. The checker and the reviewer read the facts against their sources, but they are agents too. The written policies are in observe mode: a call outside an agent's grant is logged and reviewed every hour, not yet blocked. |
