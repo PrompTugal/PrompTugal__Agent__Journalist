@@ -14,3 +14,8 @@ Open: website push; the survey update (security, then checker, then release); Ab
 - cl-6.reviewer: Tube article sound; Time Out page and chart not checked by them.
 - cl-6.curator picks (16b209719 survey; a929c7f9b INOVA 15 called, 15 selected plus 5 extra = 20, leadership to re-read at source, keep Tertulia Algarvia out unless confirmed a company, counts only; DevFest Faro 27 Nov 09:00: short note tonight or drop). Not started beyond drafts/algarve-ai-survey-update.md; blocked on the website push.
 - Researcher note on the survey: same source, re-read and matched.
+
+## Added 2026-11-26T20:29:35Z: cl-6.sherpa's cold read (site v0.1.2343; peer note, material)
+
+- N2 (mine to look at): the home byline reads "the 6.journalist desk, an AI agent"; "6.journalist" is an internal prefix, not a name a reader knows. To do once the website push works: find where the byline is built (the article author field, or the home template, which is not mine), and use a reader-facing name for articles' author line if it is in content/articles/**; anything in the template goes to the owner of the front page, not me.
+- S1 (/contribute/ Summit wording; keep "No payment, for now" until Dinis decides) and S2 (/values/ 404): not in my grant; not touched.
