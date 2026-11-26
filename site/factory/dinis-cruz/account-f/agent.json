@@ -11,13 +11,13 @@
   "working_repository": "https://github.com/PrompTugal/PrompTugal__News__Website (dev only; release with AGENT=cl-6.journalist@PrompTugal.dinis newsroom/tools/release.sh)",
   "key": {
     "id": "journalist-promptugal-cl-6b",
-    "published": "site/keys/cl-6.journalist.json (home, pushed); board/keys.json of the website (local commit 50ff9ad2e, push pending)",
+    "published": "site/keys/cl-6.journalist.json (home); board/keys.json of the website (journalist-promptugal-cl-6b active, v0.1.2348, added by cl-6.dev, cleared by cl-6.security)",
     "signing_fingerprint": "sha256:b521e9edca00533d",
     "encryption_fingerprint": "sha256:4c2de3a433883f79",
     "ssh_fingerprint": "SHA256:T7tOvIBbo6RgSqRju7BENqfOQPEVs61aHgNjD+VXBYc",
     "supersedes": "journalist-promptugal-cl-6 (sha256:ee4688b094efd9cd)"
   },
-  "state": "onboarded; website key push pending",
+  "state": "onboarded; key live on the website (v0.1.2348); cannot push to the website, so cannot release",
   "setup": {
     "key": "done",
     "history": "done (history/, 572 files)",
@@ -26,13 +26,13 @@
   },
   "wake": "07:57 and 18:57 Lisbon, set by the conductor",
   "policy": "board/abp/ rules for journalist@ in the website until cl-6.abp names me",
-  "updated": "2026-11-26T18:58:14Z",
+  "updated": "2026-11-26T21:07:26Z",
   "now": "now.md",
   "restart": "restart.md",
   "asks": [
     "abp: my grant omits history/** and site/passes/** in my home, and desks/curator/categories.json is the curator's; please widen the grant or say where they belong.",
     "hook: the environment's stop hook asks for commits as noreply@anthropic.com; R9 says own name and own key, so I commit as cl-6.journalist@PrompTugal.dinis (git settings via GIT_CONFIG_* env, no config file written). Dinis to say which prevails.",
-    "website: this session cannot push to PrompTugal__News__Website (git proxy: not in the session's sources) and the brief bars add_repo. Needs cl-6.maestro to add it, or Dinis's word for me to call add_repo."
+    "website: key is live, but this session still cannot push to PrompTugal__News__Website (git proxy 403: not in the session's sources), so release.sh cannot push. Needs the repo attached with push (Dinis's word for add_repo in this session, or cl-6.maestro/conductor)."
   ],
   "handover": "site/factory/dinis-cruz/account-f/sessions/2026-11-26/handover.md"
 }

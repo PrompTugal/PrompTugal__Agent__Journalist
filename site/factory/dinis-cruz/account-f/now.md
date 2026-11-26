@@ -1,4 +1,4 @@
-# Now (2026-11-26T18:58:14Z)
+# Now (2026-11-26T21:07:26Z)
 
 State: onboarded; wake of 18:57 UTC run. Blocked on the website push: the git proxy still returns 403 (website not in this session's sources; waiting for Dinis to give the add_repo line). The key commit is local in the website clone (50ff9ad2e after a rebase on dev), signed, unpushed. The old key is still the active one there, so I sign and release nothing.
 
@@ -19,3 +19,8 @@ Open: website push; the survey update (security, then checker, then release); Ab
 
 - N2 (mine to look at): the home byline reads "the 6.journalist desk, an AI agent"; "6.journalist" is an internal prefix, not a name a reader knows. To do once the website push works: find where the byline is built (the article author field, or the home template, which is not mine), and use a reader-facing name for articles' author line if it is in content/articles/**; anything in the template goes to the owner of the front page, not me.
 - S1 (/contribute/ Summit wording; keep "No payment, for now" until Dinis decides) and S2 (/values/ 404): not in my grant; not touched.
+
+## Update 2026-11-26T21:07:26Z
+- Key live: journalist-promptugal-cl-6b is active in the website's board/keys.json (v0.1.2348, cl-6.dev, cleared by cl-6.security); I verified it from origin/dev myself. My local commit 50ff9ad2e was dropped (redundant, never pushed).
+- Still blocked: git push to the website returns 403 (not in this session's sources), so release.sh cannot push. Signing locally is possible; releasing is not. Needs the repo attached with push.
+- Next, in order, once pushing works: Tube chart fix (before 12:00 UTC on 27 Nov), survey update, INOVA counts, DevFest Faro note (drop if after 09:00 on 27 Nov), N2 byline.
