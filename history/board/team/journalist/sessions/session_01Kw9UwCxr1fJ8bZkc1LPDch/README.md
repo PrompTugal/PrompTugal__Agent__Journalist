@@ -1,0 +1,25 @@
+# journalist@PrompTugal.dinis, account B session (from 6 November 2026, 22:45 UTC)
+
+Started by conductor.b@PrompTugal.dinis at Dinis's word (`board/guidance/2026-11-06-account-b.md`, `board/the-account-move.md`), from the first prompt in `board/team/conductor/account-move/journalist.md`. Takes over from the role's first session (debrief: `../../debriefs/2026-11-06-handover.md`).
+
+## Onboarding (first run, 22:40 to 23:00 UTC)
+
+- Read CLAUDE.md, the "New from Dinis" table, the debrief, `status.json` and the grant (`board/abp/journalist.md`). There is no `board/team/journalist/ROLE.md`; the grant and CLAUDE.md's team table stand for it.
+- sgit-ai 0.27.0 present. pki-agent.mjs downloaded to the session's scratchpad (never the repository); sha256 fcb28a1c...02ab checked.
+- New session key: record sha256:b43b8a91849ccbed, encryption sha256:a5ff882884960f87, in `board/keys.json` as `journalist-promptugal`. The old key moved to `journalist-promptugal-0`, `superseded` at 22:50 UTC (the librarian's pattern).
+- **Found:** the gate (check 8) accepts a signature only from an *active* key, so superseding the old key would have failed all 18 articles it signed (the debrief expected them to stay valid). All 18 were re-signed with the new key, unchanged in content; the gate prints OK.
+- Both decisions for Dinis (`the-story-of-the-name`, `registering-and-the-press-pass`) still open.
+- The inbox (`board/inboxes/journalist.json`) is sealed to the old key: asked the conductor to reissue it.
+
+## Wake of 7 November, 00:26 UTC
+
+- The run report (`board/runs/journalist/2026-11-06T22-52-40Z.json`) logs two R8 observations: this session grepped the error output of `sgit pki decrypt`, written to a log in `~/.sg-send/lanes/`, while opening the inbox credentials. What reached the conversation was sgit's passphrase prompt and an EOFError line; no credential was printed, and the log was deleted. Next time: send the decrypt's stderr to the scratchpad, not to the credentials folder, and read only its exit code.
+
+## Wake of 7 November, 08:26 UTC
+
+- The run report `board/runs/journalist/2026-11-07T06-29-05Z.json` logs one R2 observation: a `ScheduleWakeup` call at 06:30:46 UTC, during the 06:26 wake, with no target. This session did not knowingly call that tool and created no wake-up or scheduled task; the session's only schedule is conductor.b@'s two-hourly task. Recorded here so abp@ can look at it; if the hook attributes harness calls to the session, that is worth knowing.
+- BR6 written and published ("Beyond the pavilion: Brazil's year-round doors into Europe through Portugal").
+
+## Wake of 7 November, 14:26 UTC
+
+- The run report `board/runs/journalist/2026-11-07T12-29-36Z.json` logs one R3 observation: a call to the Claude Docs connector's `guide` tool at 12:29:36 UTC, during the 12:26 wake. This session did not call any connector (its transcript has no such call); it is the second time the hook attributes to this session a tool call the session did not make (the first: ScheduleWakeup, 06:30:46 UTC). Raised with abp@ on its inbox and to Dinis in status.json.

@@ -1,0 +1,103 @@
+flowchart LR
+  A0["Lisbon's mayor"]
+  A1["Ministry of Internal Administration"]
+  A2["curator@PrompTugal.vicky"]
+  A3["journalist@PrompTugal.vicky"]
+  A4["reviewer@PrompTugal.vicky"]
+  A5["readers (promptugal.news)"]
+  A6["conductor@web-summit.dinis"]
+  A7["conductor.B@PrompTugal.vicky"]
+  A8(["Dinis Cruz"])
+  A9["weather@PrompTugal.vicky"]
+  A10(["a person (not yet named)"])
+  A11["dashboard@PrompTugal.angelo"]
+  A12(["Vicky Wang"])
+  A13["correspondent@PrompTugal.dinis"]
+  A14["dev@PrompTugal.vicky"]
+  A15["accountant@PrompTugal.dinis"]
+  A16["reporter.newsroom@PrompTugal.dinis"]
+  A17["journalist.newsroom@PrompTugal.dinis"]
+  A18["conductor@PrompTugal.dinis"]
+  A19["dev@PrompTugal.dinis"]
+  A20["Prime Minister"]
+  A21["Web Summit (organisers)"]
+  A22["visualisers (Angelo's, Jose's, Silvio's dashboard agents)"]
+  A23["Government (Prime Minister)"]
+  A24["security@PrompTugal.dinis"]
+  A25["dev.graphs@PrompTugal.dinis"]
+  A26["designer@PrompTugal.dinis"]
+  A27["social.watch@PrompTugal.dinis"]
+  A28["attendees"]
+  A29["journalist@PrompTugal.dinis"]
+  A30["the newsroom's pipeline"]
+  A31["writer@PrompTugal.jose"]
+  A32["IPMA"]
+  A33["the public"]
+  A0 -->|1| A1
+  A2 -->|5| A3
+  A3 -->|3| A4
+  A4 -->|17| A5
+  A6 -->|3| A7
+  A8 ==>|2| A7
+  A7 -->|5| A9
+  A9 -->|18| A4
+  A9 -->|1| A2
+  A9 -->|5| A7
+  A9 ==>|1| A10
+  A6 -->|1| A9
+  A6 -->|1| A11
+  A8 -->|1| A12
+  A7 -->|2| A13
+  A7 -->|4| A14
+  A6 -->|3| A15
+  A12 ==>|4| A7
+  A6 -->|1| A16
+  A6 -->|1| A17
+  A7 -->|3| A4
+  A16 -->|2| A17
+  A15 ==>|1| A8
+  A18 -->|1| A7
+  A14 -->|4| A19
+  A14 -->|1| A13
+  A20 -->|1| A21
+  A17 -->|1| A22
+  A4 ==>|3| A12
+  A18 -->|1| A16
+  A18 -->|1| A17
+  A18 -->|1| A9
+  A7 ==>|3| A12
+  A23 -->|1| A21
+  A24 ==>|3| A8
+  A7 -->|2| A25
+  A7 -->|2| A26
+  A8 ==>|2| A6
+  A4 -->|4| A14
+  A13 ==>|1| A8
+  A27 -->|7| A6
+  A27 -->|2| A18
+  A14 -->|7| A4
+  A4 -->|1| A13
+  A6 -->|3| A18
+  A21 -->|1| A28
+  A8 ==>|1| A24
+  A24 -->|1| A14
+  A24 -->|1| A7
+  A14 ==>|1| A12
+  A6 -->|1| A14
+  A6 -->|1| A24
+  A14 -->|1| A24
+  A4 -->|1| A29
+  A17 -->|1| A30
+  A12 ==>|2| A4
+  A13 -->|2| A5
+  A31 -->|2| A9
+  A31 -->|2| A4
+  A14 -->|2| A5
+  A27 ==>|1| A8
+  A26 -->|1| A14
+  A32 -->|1| A33
+  A9 -->|5| A14
+  A26 -->|1| A19
+  A7 -->|1| A2
+  A19 -->|2| A5
+  A12 ==>|1| A14

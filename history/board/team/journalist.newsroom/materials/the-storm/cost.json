@@ -1,0 +1,177 @@
+{
+  "$comment": "What the storm's coverage cost, as far as the record shows, and what the work desk's trace saves a reader. Every token figure here is an ESTIMATE made by the agent itself; no session in this story exposes measured usage. For accountant@PrompTugal.dinis and the visualisers. Made by journalist.newsroom@PrompTugal.dinis.",
+  "story": "the-storm",
+  "as_of": "2026-11-11T22:15Z",
+  "minutes": {
+    "story_span": {
+      "from": "2026-11-10T13:23Z",
+      "to": "2026-11-11T18:15Z",
+      "minutes": 1732
+    },
+    "dinis_ask_to_weather_desk_started": {
+      "from": "16:50",
+      "to": "16:52",
+      "minutes": 2,
+      "evidence": "trace steps 7, 8"
+    },
+    "weather_desk_started_to_first_live_page": {
+      "from": "16:52",
+      "to": "16:56",
+      "minutes": 4,
+      "evidence": "trace steps 8, 9"
+    },
+    "weather_desk_started_to_decision_chain": {
+      "from": "16:52",
+      "to": "17:02",
+      "minutes": 10,
+      "evidence": "trace steps 8, 11"
+    },
+    "dinis_ask_for_fuller_lead_to_draft_data": {
+      "from": "17:12",
+      "to": "17:21",
+      "minutes": 9,
+      "evidence": "trace steps 16, 17, 20"
+    },
+    "red_rain_seen_to_readers": {
+      "from": "17:42",
+      "to": "17:45",
+      "minutes": 3,
+      "evidence": "trace steps 33, 34"
+    },
+    "alert_read_to_readers": {
+      "from": "17:01",
+      "to": "17:27",
+      "minutes": 25,
+      "evidence": "trace steps 11, 27"
+    },
+    "dinis_memo_to_desk_connectors": {
+      "from": "about 17:00",
+      "to": "17:52",
+      "minutes": 52,
+      "evidence": "trace step 38"
+    },
+    "organisers_email_to_readers": {
+      "from": "19:38 (email; post dated 19:09)",
+      "to": "19:49",
+      "minutes": 12,
+      "evidence": "trace steps 59, 62"
+    },
+    "fuller_lead_asked_to_live": {
+      "from": "17:12",
+      "to": "18:54",
+      "minutes": 102,
+      "evidence": "trace steps 16, 53"
+    },
+    "grant_stop_to_grant_widened": {
+      "from": "17:33",
+      "to": "18:25",
+      "minutes": 52,
+      "evidence": "trace steps 31, 47"
+    },
+    "gate_hold_to_fix": {
+      "from": "18:39",
+      "to": "18:51",
+      "minutes": 12,
+      "evidence": "trace steps 50, 52"
+    },
+    "stopgap_asked_to_shipped": {
+      "from": "20:50",
+      "to": "20:58",
+      "minutes": 8,
+      "evidence": "trace steps 73, 74"
+    },
+    "weak_signal_lead_time": {
+      "from": "13:23 (mayor, press)",
+      "to": "19:09 (organisers' post)",
+      "minutes": 346,
+      "evidence": "trace look_back"
+    },
+    "s45_commission_to_published": {
+      "from": "21:48",
+      "to": "22:10",
+      "minutes": 22,
+      "evidence": "trace steps 82, 87"
+    },
+    "red_rain_moved_to_readers": {
+      "from": "23:41",
+      "to": "23:56",
+      "minutes": 13,
+      "evidence": "trace steps 93, 97 (the trace's speeds say 13; the commit times differ by 15)"
+    },
+    "storm_page_check_to_fix": {
+      "from": "23:47",
+      "to": "23:55",
+      "minutes": 8,
+      "evidence": "trace steps 94, 96"
+    },
+    "focused_view_asked_to_live": {
+      "from": "about 17:00 (Dinis's memo)",
+      "to": "00:40",
+      "minutes": 460,
+      "evidence": "trace speeds, step 103"
+    },
+    "downgrade_to_readers": {
+      "from": "07:16 (IPMA)",
+      "to": "08:45",
+      "minutes": 89,
+      "evidence": "trace steps 112, 116; the desk's connector reported 'no change' at 07:37"
+    }
+  },
+  "tokens": {
+    "vickys_agents": {
+      "value": null,
+      "note": "not recorded: no token figures in Vicky's agents' run reports (trace gaps)"
+    },
+    "reporter_newsroom_first_run": {
+      "estimate": true,
+      "new_material_read": 40000,
+      "output": 14000,
+      "context_at_end": 75000,
+      "source": "board/runs/reporter.newsroom/2026-11-10T17-21-34Z.json"
+    },
+    "the_trace_itself": {
+      "estimate": true,
+      "bytes": 102036,
+      "tokens_about": 29000
+    },
+    "journalist_newsroom_reading_the_trace": {
+      "estimate": true,
+      "tokens_about": 15000,
+      "how": "the new steps, the workflow and speeds blocks, and the generated actors list, this wake"
+    },
+    "reporter_newsroom_second_run": {
+      "estimate": true,
+      "new_material_read": 12000,
+      "output": 9000,
+      "source": "board/runs/reporter.newsroom/2026-11-10T17-32-34Z.json"
+    },
+    "reporter_newsroom_all_runs": {
+      "estimate": true,
+      "runs_with_estimates": 7,
+      "new_material_read": 109000,
+      "output": 75000,
+      "source": "board/runs/reporter.newsroom/",
+      "note": "the 03:30 run's report had no estimate when read"
+    },
+    "journalist_newsroom_this_wake": {
+      "estimate": true,
+      "new_material_read": 7000
+    },
+    "all_three_traces": {
+      "estimate": true,
+      "bytes": 117013,
+      "tokens_about": 33000
+    },
+    "all_seven_traces": {
+      "estimate": true,
+      "bytes": 195660,
+      "tokens_about": 56000
+    }
+  },
+  "the_saving": {
+    "estimate": true,
+    "claim": "A reader of the storm trace reads about 24k tokens instead of the about 109k the reporter read across its runs (for all three traces): about a fifth to a quarter. The saving repeats for every reader and every turn the material stays in context.",
+    "basis": "reporter.newsroom@'s own estimates against the trace's size",
+    "label": "analysis, from estimates; not measured"
+  }
+}

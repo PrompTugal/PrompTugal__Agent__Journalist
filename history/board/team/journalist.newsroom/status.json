@@ -1,0 +1,46 @@
+{
+  "agent": "journalist.newsroom@PrompTugal.dinis",
+  "focus": "The newsroom's work journalist (board/team/work-desk/BRIEF.md): the story of the agents' work from reporter.newsroom@'s traces, and materials for the visualisers. Offers drafts to the newsroom's pipeline; never publishes.",
+  "state": "working: eight stories (storm complete at draft 11 and offered; stale page offered; the handover new; terms, night shift, Fringe, categories in progress)",
+  "updated": "2026-11-11T22:20Z",
+  "key": "journalist.newsroom-promptugal (encryption sha256:f1ed772ac0fc5963, signing sha256:f2d72cf94b4baa37) in board/keys.json",
+  "done": [
+    "Onboarded: CLAUDE.md, the work desk's brief, Dinis's guidance of 10 November (the storm as our case study; agents that save tokens)",
+    "Session key made; public half in board/keys.json as journalist.newsroom-promptugal",
+    "The story's outline: board/team/work-desk/stories/the-storm.md",
+    "The materials' structure for the visualisers: board/team/work-desk/materials/the-storm/ (README, UI ideas, and code/trace-to-materials.mjs, which turns a trace into actors.json, handoffs.json, timeline.json and two Mermaid diagrams; tested on a made-up fixture outside the repository)",
+    "Released v0.1.1042: key, status, outline and materials structure",
+    "The first trace landed (reporter.newsroom@, 17:25 UTC): materials made from it (actors.json, handoffs.json, timeline.json, the-storm.mmd, flow.mmd) plus workflow.json and cost.json",
+    "Draft 1 of 'How a team of agents covered the storm' in board/team/work-desk/stories/the-storm.md: the cast, the diagram, the five steps against the record (the connector came first, from the agent that needed it; no architect yet), the times, the cost (estimates), the decisions as the agents found them",
+    "Released v0.1.1044: draft 1 and the materials (after a gate fix: diagram labels clipped at whole words)",
+    "Wake 18:58: the trace grew to 45 steps (18:35 UTC). Draft 2 in board/team/journalist.newsroom/stories/the-storm.md: three speeds (3, 25 and 52 minutes), 22 actors, steps 2 to 4 collapsed into the desk (eight source readers, a proposal in place of a plan), the policy boundary at 17:33, the storm page's routing, the cost (estimates). Materials refreshed in board/team/journalist.newsroom/materials/the-storm/",
+    "Released v0.1.1059: draft 2",
+    "Wake 21:58: the trace grew to 78 steps (21:45 UTC). Draft 3 in board/team/journalist.newsroom/stories/the-storm.md: Day 2 called off (19:09) and on S41 twelve minutes after the email; the look-back (the mayor's remark at 13:23, 5 h 46 min ahead, missed because the desk watched primary sources only); the grant, gate and security review as the only slowdowns; the satellite loop as a second workflow; the cost (estimates). Materials refreshed (third cut); the script's copy here keeps a hand-off target's kind",
+    "Draft 3 offered to journalist@PrompTugal.dinis on its inbox (sealed, signed), as a draft for the newsroom's pipeline",
+    "Released v0.1.1087: draft 3 of the storm, offered to journalist@PrompTugal.dinis",
+    "Wake 00:58: the storm trace to 101 steps: draft 4 adds 'Through the night' (S45 in 22 minutes under Vicky's new standing authorisation; the rain moved earlier, on S41 in 13 minutes; the storm page checked twice and cleared at 00:17; Jose's writer's request). A new trace, the categories rollout: draft 1 in board/team/journalist.newsroom/stories/the-categories.md and its materials. The script names its sequence diagram after the story",
+    "Released v0.1.1119: the storm draft 4, the categories draft 1",
+    "Wake 03:58: the storm draft 5 (the storm page live at 00:40, 460 minutes after Dinis's memo; S51; Jose's writer's second request); the categories draft 2 (labels live; the gate taught the order); a new story from a new trace, the night's discovery workflow: 'The night shift', draft 1 (one approval, a standing rule, four articles published with no person in the loop at the time, one sent back). Materials for all three",
+    "Released v0.1.1149: storm draft 5, categories draft 2, the night shift draft 1",
+    "Wake 06:58: the night shift draft 2 (36 steps: six published, fifteen leads; a public correction: S50's 'Fix first' was withdrawn by the reviewer, the dates were on the cited page, which draft 1 had reported the other way; S52 held for Vicky as an editorial call; a primary source contradicting the press). The storm draft 6: the press watch stopped at 05:52 when the shared OpenRouter credit ran out. Materials refreshed",
+    "Released v0.1.1179: the night shift draft 2 (with its correction), the storm draft 6",
+    "Wake 09:58: the storm draft 7 (IPMA's first downgrade at 07:16, the desk's connector reporting 'no change', social.watch@ wiring IPMA's CAP feed from the miss, readers told 89 minutes after IPMA; the first designer step, after the build); the night shift draft 3 (eight published); a new story from a new trace, the stale page (diagnosis by one developer, fix by the files' owner on the other account six minutes after the note reached it). Materials for all",
+    "Released v0.1.1208: the storm draft 7, the night shift draft 3, the stale page draft 1",
+    "Wake 12:58: a new story from a new trace, Lisbon Fringe's start (from Dinis's word to four conductors on three accounts in 2 h 18 min); the storm draft 8 (the incident team's site as a source, narrowed by Vicky to a pointer; the designer-first strip live in 1 h 25 min; the weather desk's end planned for Thursday); the night shift draft 4 (ten published; S52 out after Vicky's call, six hours after Ready); the stale page draft 2 (closed: verified, followed up, post-reviewed) offered to journalist@PrompTugal.dinis on its inbox. Materials for all",
+    "Released v0.1.1238: Lisbon Fringe draft 1, storm draft 8, night shift draft 4; the stale page offered to journalist@PrompTugal.dinis",
+    "Wake 15:58: a new story from a new trace, the platform-terms rule (found independently by two agents on two accounts, 7 h 19 min between teams, 24 minutes to eleven of twelve confirmations, a person reading where agents may not); the storm draft 9 (Thursday back on: the reopening node answered, through Vicky's own read); the night shift draft 5 (S57 dropped under the terms rule). Materials for all",
+    "Released v0.1.1264: the terms draft 1, storm draft 9, night shift draft 5",
+    "Wake 18:58: the storm draft 10, the arc complete (red rain over, wind green, the alert ending at 23:59, 275 incidents and no casualties), with journalist@PrompTugal.dinis told it replaces the draft 3 offered; the night shift draft 6 (an outside check on S56 by Silvio's jornal@); the terms draft 2 (link, do not copy); Lisbon Fringe draft 2 (renamed Lisbon Tech Fringe, its link fixed in 3 minutes). Materials for all",
+    "Released v0.1.1291: the storm complete (draft 10), the night shift 6, the terms 2, the Fringe 2",
+    "Wake 21:58: a new story from a new trace, Vicky's team handover (ten keys in 18 minutes, nine wakes off only on confirmation, Vicky's condition, a refusal to touch another team's key); the terms draft 3 (Dinis's takedown: 13 articles and three story pages withdrawn with a note, nothing deleted); the night shift draft 7 (S58 in 26 minutes; S47 and S49 withdrawn); the storm draft 11 (postscript: the last warning, the desk changing hands). Materials for all"
+  ],
+  "next": [
+    "When abp@ writes this role's grant: move the stories and materials to board/team/work-desk/",
+    "At each wake: follow the five traces; offer the night shift and categories stories once their workflows close; answer journalist@ on the two offered drafts",
+    "Tell accountant@PrompTugal.dinis about the cost.json files"
+  ],
+  "asks": [
+    "Dinis / abp@PrompTugal.dinis: this role has no ABP yet; the session hook says it writes only board/team/journalist.newsroom/, board/runs/journalist.newsroom/ and its keys.json entry until abp@ writes its grant, while its brief gives board/team/work-desk/. Draft 1 and the first materials (released before the hook said so) are in board/team/work-desk/ and were logged as R6 breaches; draft 2 is in this role's own folder. A grant for board/team/work-desk/ would let the work desk keep one folder."
+  ],
+  "tokens": "estimates (no measured usage in this session): wake 21:58 about 7k of new material read and about 10k written"
+}

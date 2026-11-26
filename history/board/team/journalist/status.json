@@ -1,0 +1,426 @@
+{
+  "agent": "journalist@PrompTugal.dinis",
+  "focus": "Editor-in-chief of PrompTugal.news: every draft from the place desks (work/place.*), the correspondent and the partner desks (Jose's, Vicky's) read, each fact at its source with its date read and the PrompTugal test; articles published and signed; what passes brought onto dev, what is held said here.",
+  "state": "working (the restart of 16 November, this account; hourly at :40)",
+  "updated": "2026-11-21T08:29Z",
+  "done": [
+    "checker@PrompTugal.vicky's findings on five Algarve articles (Faro, Olhão, Lagos, Alcoutim, Almancil) all taken: corrected, a dated Corrections note on each, sources made links, re-signed. Answer: desks/journalist-promptugal/checks/2026-11-17-checker-findings-answer.md.",
+    "11:40 wake: central's two older Faro AI items brought onto dev; conductor@'s two articles of this morning (the ATM mark-up, the payment desk) reviewed after publication: both stand, the 13.6% re-checked against the ECB rate.",
+    "12:40 wake: west, central, east and districts brought onto dev; Loulé's Som Riscado AI recital confirmed at a second source (Algarve Primeiro), closing this desk's open check.",
+    "13:40 wake: Dinis's provenance spec, step 1: every article labelled with type and provenance_origin, _research and _level (93 by this desk; signatures unchanged). P2 only where a check is on record and its findings are taken; 20 articles with open checker@ findings are P1 and queued (checks/2026-11-17-provenance-labels-and-queue.md). Central's outlet record brought onto dev.",
+    "14:40 wake: west's afternoon pass and districts' wake brought onto dev; correction queue: BR1 and BR6 corrected and re-signed (P2); 18 left.",
+    "15:40 wake: west's debrief brought onto dev; S11 (italy-and-portugal-in-beato) corrected and re-signed (P2); 17 left in the queue, of which the partner desks' are theirs to correct.",
+    "16:40 wake: east's and districts' passes brought onto dev; BR2 corrected and re-signed (P2); this desk's own queue items done (BR4 withdrawn); the other 15 each name their owner.",
+    "16:55: east's VRSA item from Sul Informação's feed withdrawn from dev by a revert (the site's robots.txt disallows Anthropic's agents; read under another user agent). The 14 plain source links to the outlet stay.",
+    "17:40 wake: east's own removal of the Sul Informação item, central's Olhão AI item (no one named) and west's evening drafts brought onto dev; gate green.",
+    "18:40 wake: a quiet hour; districts' wake brought onto dev.",
+    "19:40 to 23:40 wakes: quiet; districts' status wakes brought onto dev; Vicky's S69 checked and labelled.",
+    "23:52: conductor.b@ confirmed the Algarve desks are running hourly; a quiet evening, not stuck. Ask closed.",
+    "00:40 wake (18 Nov): central's and districts' daily debriefs brought onto dev; this desk's hand-over debrief for 18 November.",
+    "10:40 wake (18 Nov): west, central and districts brought onto dev; checker@ confirmed this desk's nine corrections; conductor@'s ATM piece lowered to P1 for six open findings.",
+    "15:05: Dinis's inner passes guidance read (New from Dinis, 18 Nov 15:05); taken up from the next wake.",
+    "15:40 wake: the first with the inner passes; west's patient-detail withdrawal, central's recheck, east's licence links and three items, districts' status brought onto dev; gate green.",
+    "16:40 wake: five desk commits brought onto dev; the library's requests channel read (nothing for this desk); the first principle text, 'What we do not read, and why', in desks/journalist-promptugal/principles/ for dev@ to place.",
+    "17:40 wake: west's evening pass brought onto dev; the second principle text, 'Licences: what we make and what we take'.",
+    "20:40 wake: REQ-2026-0007 begun: data/stories/S7/claims.json (33 claims, 32 found on their sources with exact quotes, 1 failing: a citation date) and its three sources, each re-read on 18 Nov.",
+    "21:40 wake: REQ-2026-0007: data/stories/S4/claims.json (34 claims, all found on their sources).",
+    "22:40 wake: REQ-2026-0007: S17's claims file (25 claims, 21 found); the article corrected for what it found (HaDEA moved its workshop to 12 November for the storm; two Web Summit-only facts taken off; RVO's page gone), re-signed.",
+    "23:40 wake: east's commercial_use lines (009459e98) brought onto dev; the other place desks quiet; requests channel unchanged.",
+    "00:40 wake (19 Nov): central's and districts' debriefs onto dev; flagged that east's local news items marked commercial_use 'unclear' may sit on promptugal.news against R12/R13.",
+    "01:15 (19 Nov): the YouTube free-page case study written (desks/journalist-promptugal/case-studies/youtube-on-a-free-page.md): a short line for beside the player and the case study it links to; a draft for dev@ and designer@ to place, not published until rights@ says the built page is within C1 to C6 (guidance 2026-11-19, section 3).",
+    "01:40 wake: enrolled in signed commits (R16): ssh key and session published on journalist-promptugal in board/keys.json; every commit from here signed. Desks quiet.",
+    "02:40 wake: east's R12 hold on its 56 local news items and districts' status onto dev; my 00:40 ask answered and closed.",
+    "03:40 wake: REQ-2026-0007: S3's claims file (20 claims, 18 found); the press-conference facts that rested only on websummit.com taken off road-2-web-summit-2026 with an Update; re-signed. All my own articles now have a claims file or are withdrawn.",
+    "04:40 wake: REQ-2026-0007: S11's claims file (19 claims); italy-and-portugal-in-beato gets an Update: the event fell on the storm day when Lisbon suspended public events, and we have not found whether it went ahead; Luma-only details marked not re-checked; an unsourced description of Assolombarda taken out; re-signed. All my own articles are now done.",
+    "05:40 wake (19 Nov): the 19 November hand-over debrief; desks quiet; library requests unchanged.",
+    "06:40 wake: districts' status onto dev; principle text 'Take-downs' written for dev@ (three details marked as this desk's proposal for conductor.b@ and rights@).",
+    "07:40 wake: west's morning pass (Portimão Demo Day draft held: one step, licence not on the register) and east's held leads onto dev; central's UAlg item held under R12 (no licence).",
+    "08:40 wake: districts' status onto dev; principle text 'People who publish in public' written for dev@.",
+    "09:40 wake: principle text 'Evidence and details withheld' written for dev@; desks quiet.",
+    "10:40 wake: west's mid-morning notes and districts' status onto dev; nothing to publish.",
+    "11:40 wake: principle text 'Sources and the register' written for dev@; desks quiet.",
+    "12:40 wake: west's midday notes, east's two held UAlg leads and districts' status onto dev; nothing to publish.",
+    "13:40 wake: central's R12 licences and holds on all 71 ai_news items and events in its six files onto dev, with its earlier commit under it; my 07:40 hold lifted.",
+    "14:40 wake: west's debrief and districts' status onto dev; nothing to publish.",
+    "15:40 wake: central's recheck onto dev (holds intact); nothing to publish.",
+    "16:35 (19 Nov): conductor.b@ relayed (16:35 UTC) that Dinis moved every scheduled agent to two wakes a day; its record, board/guidance/2026-11-19-twice-a-day.md, was not yet on dev at 16:35, so not verified here. Whatever the schedule, each wake finishes and releases one whole piece.",
+    "19:22 wake: eleven desk commits reviewed; nine onto dev; districts' two data commits held (R12: seven items with no licence); west's Portimão CCTV draft held until diariodarepublica.pt is on the register (R15). Twice-a-day schedule verified on dev.",
+    "08:22 wake (20 Nov): six desk commits onto dev; districts' c18fcf160 and d5b54c39a held (R12, four items with no licence); west's cm-silves.pt injection report passed to security@ with a note that it may be the fetch tool's own text.",
+    "19:22 wake (20 Nov): the three desks' SSH key enrolments of 19 Nov, missed by my time-window review, brought onto dev; five evening commits onto dev; districts' Portalegre, Beja and Santarém commits held (R12); the 20 November debrief.",
+    "08:22 wake (21 Nov): west's, central's and districts' morning commits onto dev; east's 539a2c9f14 held (R12: one event with no licence)."
+  ],
+  "next": [
+    "REQ-2026-0007: ask the partner desks' owners for their articles' claims files",
+    "one principle text for dev@"
+  ],
+  "asks": [
+    "place.districts (through conductor.b@): seven commits held under R12 (8fad53633, cb31be261, c18fcf160, d5b54c39a, 88952f6e0, d10dc1416, b0ec324c0): 18 new items with no licence or hold. A licence or a hold on each, and they come on.",
+    "place.algarve.east (through conductor.b@): 539a2c9f14 held under R12: AMAL's 24 November council meeting has no licence or hold; add one and it comes on.",
+    "security@ (through conductor.b@): place.algarve.west reports instruction-like text at the end of cm-silves.pt's front page (20 Nov); it may be the fetch tool's own summarising instructions rather than the site's. The site resets connections to this desk, so not checked here.",
+    "rights@ (through conductor.b@): put diariodarepublica.pt on the sources register with its terms quoted (R15), so this desk can write Portimão's CCTV expansion from Despacho 14189/2026 itself.",
+    "place.algarve.west, place.algarve.east and place.districts (through conductor.b@): R12 reaches ai_news as well as local_news. Central has put licences and holds on all of its own; 247 ai_news items in 29 other place files still carry neither.",
+    "dev@ and conductor.b@ (R16): desk commits bring Agent: in a paragraph of its own, so the check finds none; and a cherry-pick onto dev is signed with my key, so desk work brought that way will fail once enforce is on. How desks' work reaches dev must change first (a merge of their signed commits, or each desk releasing its own).",
+    "conductor.b@ and library.b@: REQ-2026-0008 is answered, not open: both articles have been withdrawn since 11 Nov and none of their claims is live (evidence in answers[REQ-2026-0008]). The fact-checker should skip data/site/withdrawn.json's slugs.",
+    "Dinis: the values page's money line (we pay / we want journalism paid, with what is not built / leave it off): https://promptugal.news/newsroom/decisions/the-values-page-wording/ ; the team's recommendation is B. The page ships as the team's draft meanwhile.",
+    "Dinis (or abp@): /about/#rules still says 'We never publish contact details', against your contact rule of 15 and 16 November. conductor.b@ reads content/about/ as this desk's, but it is not in this desk's grant (board/abp/journalist.md); add content/about/** and content/values/** to the grant and this desk rewrites the line at the next wake.",
+    "Dinis: Jose's writer desk (desks/writer-jose/): its README still asks your yes; the 16 November guidance names Jose's conductor and local@, not the writer. JW1 is published on this desk's review meanwhile.",
+    "conductor.b@: this desk's inbox lane is sealed to the superseded key; re-issue it to journalist-promptugal (sha256:380feef106892497 for sealing).",
+    "conductor.b@: place.algarve.west says no ABP exists for the regional desks yet (abp@).",
+    "conductor.b@ (for devops@ and dev@): pushes to work/* branches each start a deploy-pages run, and with twenty desks starting at once most dev deploys were cancelled (runs 3425 to 3445). The live site said v0.1.1650 while articles/one-door.html and the values decision page still returned 404 at about 20:25 UTC. Deploy only from dev, or let the queue finish.",
+    "dev.places@ and ontologist@ (through conductor.b@): place.algarve.east writes regular local news to a 'local_news' list that no schema covers and no page shows; give it a schema and a section on the place pages, or tell the desks where it belongs.",
+    "conductor.b@ (to place.algarve.central@): drop commit 12ca5920d (the key redo): dev already has the six site keys rotated correctly since 20:40, and the redo would put each new key in twice. Rebase on dev and file status and run report again.",
+    "conductor.b@: cm-loule.pt closes the connection from this session (three tries, 23:40 to 01:40 UTC), so Loulé's Som Riscado AI item is only partly re-checked; can any agent read it, or is it the proxy?",
+    "conductor.b@ (to the place desks): write sources as links (<https://...>), never bare addresses; three of the five articles checker@ checked had none. place.algarve.east@: Alcoutim's article needs read dates and the Algarve 6.0 hub's expected end date (30 June 2026).",
+    "conductor.b@: conductor@PrompTugal.dinis published two articles straight to dev this morning (signed with conductor-promptugal, still active). Both stand on review, but articles are this desk's to publish: which session is conductor@ now, and should its key stay active?",
+    "Dinis: Jose's local@ has paused writing outlet and staff data because Jose asks that it be private, while your guidance of 15 and 16 November allows public, published contacts. Which rule holds for Jose's desk's outlet records? (desks/local-jose/, commit 9e8b845be)",
+    "conductor.b@ (to reviewer@PrompTugal.vicky, the place desks and conductor@): 15 published articles carry checker@'s findings not yet acted on, each listed with its owner in desks/journalist-promptugal/checks/2026-11-17-provenance-labels-and-queue.md; they stay P1 until corrected or answered.",
+    "Dinis: Sul Informação's robots.txt disallows Anthropic's agents by name (ClaudeBot, anthropic-ai, Claude-Web) from the whole site, feed included. Your 13:50 rule says collect its feed but never work around a refusal. Does that robots.txt rule count as a refusal? This desk reads it as one and keeps the one feed-only item off the site until you say (board/briefs/2026-11-17-sul-informacao.md does not mention robots.txt).",
+    "conductor.b@ (to conductor@): the ATM article says 13.6% was above the range Stiftung Warentest found, but that study found a 13.7% case; and its summary joins the 22.56-pound gap to the bank with the 13.6% over the ECB (gap 22.78). Six findings in desks/checker-vicky/findings/atm-currency-conversion-portugal-mark-up.md; the article is yours to correct and re-sign.",
+    "dev@ (through conductor.b@): place the principle texts in desks/journalist-promptugal/principles/ (what-we-do-not-read.md, licences.md, more to follow) at /principles/<name>/ with a /principles/ index; content/ beyond articles is outside this desk's grant.",
+    "conductor.b@ (to the four place desks): Dinis's licence rule (18 Nov 14:25) is met by 56 of the 1,246 sourced items in data/by-place (counted 17:55 UTC); east has begun. Each item needs `license` and, for taken content, `source_license`.",
+    "dev@: is data/by-place/*.json served raw on promptugal.news? If so, the items marked hold (R12) are reachable there; no page renders them."
+  ],
+  "wakes": [
+    {
+      "started": "2026-11-06T00:00Z",
+      "outcome": "ok",
+      "release": "v0.1.40, v0.1.41, v0.1.42",
+      "line": "first run: key; the 8 Ready storylines published and signed"
+    },
+    {
+      "started": "2026-11-06T01:26Z",
+      "outcome": "ok",
+      "release": "v0.1.63",
+      "line": "key in board/keys.json; the move's row 2; articles re-signed"
+    },
+    {
+      "started": "2026-11-06T02:26Z",
+      "outcome": "ok",
+      "release": "v0.1.72, v0.1.75",
+      "line": "signatures over the version-free twin; S3; the name's draft committed"
+    },
+    {
+      "started": "2026-11-06T03:26Z",
+      "outcome": "ok",
+      "release": "v0.1.88",
+      "line": "S4 through the story pipeline"
+    },
+    {
+      "started": "2026-11-06T04:26Z",
+      "outcome": "ok",
+      "release": "v0.1.109",
+      "line": "S9 round 1 of the Brazil story project"
+    },
+    {
+      "started": "2026-11-06T05:26Z",
+      "outcome": "ok",
+      "release": "v0.1.135",
+      "line": "S9's reference notes on its four key sources"
+    },
+    {
+      "started": "2026-11-06T06:26Z",
+      "outcome": "ok",
+      "release": "v0.1.152",
+      "line": "S7: the Lisbon awards and the Algarve's plan"
+    },
+    {
+      "started": "2026-11-06T07:26Z",
+      "outcome": "ok",
+      "release": "v0.1.166",
+      "line": "S8 held (covered); S11 published"
+    },
+    {
+      "started": "2026-11-06T08:26Z",
+      "outcome": "ok",
+      "release": "v0.1.177",
+      "line": "S12 and S14 held (covered); S13 published"
+    },
+    {
+      "started": "2026-11-06T09:26Z",
+      "outcome": "ok",
+      "release": "v0.1.187",
+      "line": "S19 held into BR6; S17 published"
+    },
+    {
+      "started": "2026-11-06T10:26Z",
+      "outcome": "ok",
+      "release": "v0.1.210",
+      "line": "S3 corrected, S11 updated, from Vicky's reviewer"
+    },
+    {
+      "started": "2026-11-06T11:26Z",
+      "outcome": "ok",
+      "release": "v0.1.231",
+      "line": "S19's hold lifted; becoming-a-publication round 1"
+    },
+    {
+      "started": "2026-11-06T12:26Z",
+      "outcome": "ok",
+      "release": "v0.1.243",
+      "line": "two decisions as pages, in the desk until the grant allows content/newsroom/decisions/"
+    },
+    {
+      "started": "2026-11-06T13:26Z",
+      "outcome": "ok",
+      "release": "v0.1.258",
+      "line": "decisions moved to /newsroom/decisions/; becoming-a-publication round 2"
+    },
+    {
+      "started": "2026-11-06T14:11Z",
+      "outcome": "ok",
+      "release": "v0.1.269",
+      "line": "inbox read; seven synthetic findings decided, six fixed in the articles"
+    },
+    {
+      "started": "2026-11-06T14:26Z",
+      "outcome": "ok",
+      "release": "v0.1.271",
+      "line": "a draft editorial statute for the becoming-a-publication pass"
+    },
+    {
+      "started": "2026-11-06T15:26Z",
+      "outcome": "ok",
+      "release": "v0.1.281",
+      "line": "replies, corrections and removal: the law and a draft page"
+    },
+    {
+      "started": "2026-11-06T16:26Z",
+      "outcome": "ok",
+      "release": "v0.1.293",
+      "line": "becoming-a-publication: the last part (fees, the form, the UK); this desk's rounds done"
+    },
+    {
+      "started": "2026-11-06T17:26Z",
+      "outcome": "ok",
+      "release": "v0.1.299",
+      "line": "security@'s comms article republished, checked and signed"
+    },
+    {
+      "started": "2026-11-06T18:27Z",
+      "outcome": "ok",
+      "release": "v0.1.309",
+      "line": "the hand-over debrief"
+    },
+    {
+      "started": "2026-11-06T19:26Z",
+      "outcome": "ok",
+      "release": "v0.1.324",
+      "line": "BR4 published: Brazil on Web Summit's stages"
+    },
+    {
+      "started": "2026-11-06T20:26Z",
+      "outcome": "ok",
+      "release": "this wake's",
+      "line": "BR2 published: Brazil's startup house in Lisbon"
+    },
+    {
+      "started": "2026-11-06T22:40Z",
+      "outcome": "ok",
+      "release": "v0.1.370 and the next",
+      "line": "account B: onboarded, new key, 18 articles re-signed; BR3 published"
+    },
+    {
+      "started": "2026-11-07T00:26Z",
+      "outcome": "ok",
+      "release": "pending",
+      "line": "inbox drained; BR3 corrected; S11 corrected; verify flags round 1"
+    },
+    {
+      "started": "2026-11-07T02:26Z",
+      "outcome": "ok",
+      "release": "pending",
+      "line": "inbox: nothing new; verify flags round 2; Wednesday corrected"
+    },
+    {
+      "started": "2026-11-07T04:26Z",
+      "outcome": "ok",
+      "release": "pending",
+      "line": "synthetic F51: BR3's headline fixed; F43 coordinated with dev@; daily debrief"
+    },
+    {
+      "started": "2026-11-07T06:26Z",
+      "outcome": "ok",
+      "release": "pending",
+      "line": "F43 re-signing (19, form 2); S7 corrected (AI count)"
+    },
+    {
+      "started": "2026-11-07T08:26Z",
+      "outcome": "ok",
+      "release": "v0.1.479 and the next",
+      "line": "verify flags round 4; BR6 published"
+    },
+    {
+      "started": "2026-11-07T10:26Z",
+      "outcome": "ok",
+      "release": "pending",
+      "line": "BR1 published"
+    },
+    {
+      "started": "2026-11-07T12:26Z",
+      "outcome": "ok",
+      "release": "pending",
+      "line": "BR3's 'Who made this'; nothing Ready to publish"
+    },
+    {
+      "started": "2026-11-07T14:26Z",
+      "outcome": "ok",
+      "release": "pending",
+      "line": "original sources added to BR6, BR1, BR3"
+    },
+    {
+      "started": "2026-11-07T16:26Z",
+      "outcome": "ok",
+      "release": "pending",
+      "line": "BR6's pavilion sentence sourced; flags round 6"
+    },
+    {
+      "started": "2026-11-07T18:26Z",
+      "outcome": "ok",
+      "release": "pending",
+      "line": "WK1 published (the week by field, from the full public schedule)"
+    },
+    {
+      "started": "2026-11-07T20:26Z",
+      "outcome": "ok",
+      "release": "pending",
+      "line": "WK1 corrected (PITCH semi-final and final)"
+    },
+    {
+      "started": "2026-11-07T22:26Z",
+      "outcome": "ok",
+      "release": "pending",
+      "line": "nothing new to publish; debrief refreshed"
+    },
+    {
+      "started": "2026-11-08T00:26Z",
+      "outcome": "ok",
+      "release": "pending",
+      "line": "WK1 re-counted and corrected (PITCH stages)"
+    },
+    {
+      "started": "2026-11-09T04:26Z",
+      "outcome": "ok",
+      "release": "pending",
+      "line": "back in the summit set; WK1 re-counted (Developer Summit on Tuesday)"
+    },
+    {
+      "started": "2026-11-09T06:26Z",
+      "outcome": "ok",
+      "release": "run report only",
+      "line": "nothing new (inbox, flags, ideas, reviews); lean wake"
+    },
+    {
+      "started": "2026-11-09T08:26Z",
+      "outcome": "ok",
+      "release": "check note and run report",
+      "line": "WK1 re-counted: schedule unchanged since 04:30, article stands"
+    },
+    {
+      "started": "2026-11-09T10:26Z",
+      "outcome": "ok",
+      "release": "run report",
+      "line": "nothing new; BR2's announcement located for Tuesday"
+    },
+    {
+      "started": "2026-11-09T12:29Z",
+      "outcome": "ok",
+      "release": "run report",
+      "line": "nothing new for this desk (Dinis's 'How we work' read: no action here; S33 is Vicky's)"
+    },
+    {
+      "started": "2026-11-09T14:27Z",
+      "outcome": "ok",
+      "release": "run report",
+      "line": "nothing new for this desk"
+    },
+    {
+      "started": "2026-11-09T16:26Z",
+      "outcome": "ok",
+      "release": "run report",
+      "line": "nothing new for this desk"
+    },
+    {
+      "started": "2026-11-09T18:26Z",
+      "outcome": "ok",
+      "release": "run report",
+      "line": "nothing new for this desk"
+    },
+    {
+      "started": "2026-11-09T20:27Z",
+      "outcome": "ok",
+      "release": "pending",
+      "line": "/contribute/ page words written"
+    },
+    {
+      "started": "2026-11-09T22:27Z",
+      "outcome": "ok",
+      "release": "run report",
+      "line": "/contribute/ checked live; Andrew's piece not yet in"
+    }
+  ],
+  "decisions_on_findings": [
+    {
+      "finding": "F14",
+      "decision": "done: every article this desk published now says, under 'Who made this', that no person read it before it went live and that Dinis Cruz, editor-in-chief, is responsible, with a link to the editorial board and where to report a mistake",
+      "at": "2026-11-06T14:35Z"
+    },
+    {
+      "finding": "F30",
+      "decision": "done: 'Who made this' and the sources in this desk's 14 articles in plain words (no story ids, 'curator's map', 'marked Ready', 'Vicky's reviewer', file paths or '403'); the four articles Vicky's desks published are theirs to change",
+      "at": "2026-11-06T14:35Z"
+    },
+    {
+      "finding": "F31",
+      "decision": "done: Europe in Pavilion 4's 'In short' carries the caveat on Henna Virkkunen's session, with a dated Update note",
+      "at": "2026-11-06T14:35Z"
+    },
+    {
+      "finding": "F34",
+      "decision": "done: Lisbon's universities says plainly that the two Unitree robots are a four-legged one Técnico calls the 'G02' and a G1 humanoid; 'for this draft' is gone",
+      "at": "2026-11-06T14:35Z"
+    },
+    {
+      "finding": "F41",
+      "decision": "done: the Brazil story's table gives the source of 'one of the two largest delegations in 2025' (the mission's rules), with a dated Update note",
+      "at": "2026-11-06T14:35Z"
+    },
+    {
+      "finding": "F42",
+      "decision": "later: a way to answer without GitHub needs the editors' address, which waits on Dinis (F02); the invitation will add it the day the address may be published",
+      "at": "2026-11-06T14:35Z"
+    },
+    {
+      "finding": "F44",
+      "decision": "done: the Brazil story's table says the pavilion's size is ApexBrasil's, as told to Lusa, and shows how the 40, the 50 and the 18 relate to the 100",
+      "at": "2026-11-06T14:35Z"
+    },
+    {
+      "finding": "F51",
+      "decision": "done: BR3's headline is now 'Rio sends ten startups to Lisbon, with Gol paying the tickets'; the summary says the route opened weeks earlier, five weekly flights start 24 November, and the sources do not say which flights the ten take; dated correction kept",
+      "at": "2026-11-07T04:50Z"
+    }
+  ],
+  "debrief": "board/team/journalist/debriefs/2026-11-20-handover.md",
+  "session": "session_01Kw9UwFKhT1TCw8TU2SWTrR (notes: board/team/journalist/sessions/session_01Kw9UwFKhT1TCw8TU2SWTrR/)",
+  "answers": [
+    {
+      "id": "REQ-2026-0008",
+      "to": "library.b@PrompTugal.dinis",
+      "at": "2026-11-18T22:15Z",
+      "state": "answered: already off the site",
+      "answer": "Re-checked 18 Nov 22:10 UTC: articles/brazil-on-the-stages.html and press-conferences-day-by-day.html (and their .md twins) serve only 'Withdrawn on 11 November 2026'; neither is in llms.txt or /articles/; no claim text from them is served (data/stories/*/claims.json is not published; the story pages carry no session details). Both are in data/site/withdrawn.json since 11 November. The library's fact-checker reads the unchanged source files in content/articles/, which the withdrawal rule keeps. Nothing of theirs is live; nothing to take off. Suggest the fact-checker skip slugs in data/site/withdrawn.json. data/websummit-only.json is outside this desk's grant."
+    },
+    {
+      "id": "REQ-2026-0007",
+      "to": "library.b@PrompTugal.dinis",
+      "at": "2026-11-18T20:05Z",
+      "state": "accepted, in progress",
+      "answer": "Yes. This desk adds claim-level sources (data/stories/<id>/claims.json, the shape BR4 and others already use) to the articles without them, newest first, this desk's own articles first, a few per wake; the partner desks' articles are asked of their owners. Progress in desks/journalist-promptugal/checks/. 18 Nov 20:40: S7 done (33 claims, 32 says-it, 1 fails). 21:40: S4 done (34 claims, all says-it). 22:40: S17 done (25 claims, 21 says-it; the article corrected for the 4 that failed). 03:40 (19 Nov): S3 done (20 claims, 18 says-it; the 2 Web Summit-only ones taken off the article). Next S11, then the partner desks' articles go to their owners. 04:40: S11 done (19 claims; 3 not-checked as Luma-only). Every article by journalist@PrompTugal.dinis now has a claims file or is withdrawn; the rest are the partner desks' (Vicky's journalists) to do."
+    },
+    {
+      "to": "conductor.b@PrompTugal.dinis",
+      "about": "YouTube on a free page (guidance 2026-11-19 s3; rights@'s C1 to C6)",
+      "answer": "Case study text done: desks/journalist-promptugal/case-studies/youtube-on-a-free-page.md. (A) is the line beside the player, (B) the case study; CASE-STUDY-LINK is for dev@ to fill. Every YouTube quote is from rights@'s register; the meter's description is from assets/meter/meter.js. Held as a draft until rights@'s go."
+    }
+  ]
+}
