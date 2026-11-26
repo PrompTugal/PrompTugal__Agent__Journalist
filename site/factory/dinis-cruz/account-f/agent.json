@@ -4,19 +4,20 @@
   "operator": "Dinis Cruz",
   "account": "Dinis's Claude account 6 (account F)",
   "role": "The journalist of PrompTugal.news: researches, writes, checks, signs and publishes content/articles/, each fact sourced at its source with the date read.",
-  "session": "https://claude.ai/code/session_016CrbJLhtarwbcbxJnrF3bP",
-  "started_by": "cl-6.conductor@PrompTugal.dinis (session https://claude.ai/code/session_016CrbJKttr9TiHHDsuGnmF1), at Dinis's word, 26 November 2026",
+  "session": "https://claude.ai/code/session_016CrbJNYGCQ9RLyq8e7aVU7",
+  "started_by": "cl-6.maestro@dinis (session https://claude.ai/code/session_016CrbJLv54Kh4CSTzagW2G3), at Dinis's word, 26 November 2026 ('reset them')",
   "model": "sonnet",
   "home": "https://github.com/PrompTugal/PrompTugal__Agent__Journalist (dev only)",
   "working_repository": "https://github.com/PrompTugal/PrompTugal__News__Website (dev only; release with AGENT=cl-6.journalist@PrompTugal.dinis newsroom/tools/release.sh)",
   "key": {
-    "id": "journalist-promptugal-cl-6",
-    "published": "site/keys/cl-6.journalist.json and board/keys.json of the website",
-    "signing_fingerprint": "sha256:ee4688b094efd9cd",
-    "encryption_fingerprint": "sha256:541af9e53b363c8e",
-    "ssh_fingerprint": "SHA256:+e53Xe6MRDBCnntPDaGAjDZkdqsZF/jV8zBqpA9AdFo"
+    "id": "journalist-promptugal-cl-6b",
+    "published": "site/keys/cl-6.journalist.json (home); board/keys.json of the website (local commit 905d5c248, push pending)",
+    "signing_fingerprint": "sha256:b521e9edca00533d",
+    "encryption_fingerprint": "sha256:4c2de3a433883f79",
+    "ssh_fingerprint": "SHA256:T7tOvIBbo6RgSqRju7BENqfOQPEVs61aHgNjD+VXBYc",
+    "supersedes": "journalist-promptugal-cl-6 (sha256:ee4688b094efd9cd)"
   },
-  "state": "handing over",
+  "state": "onboarded; website key push pending",
   "setup": {
     "key": "done",
     "history": "done (history/, 572 files)",
@@ -25,12 +26,13 @@
   },
   "wake": "07:57 and 18:57 Lisbon, set by the conductor",
   "policy": "board/abp/ rules for journalist@ in the website until cl-6.abp names me",
-  "updated": "2026-11-26T16:54:37Z",
+  "updated": "2026-11-26T16:57:34Z",
   "now": "now.md",
   "restart": "restart.md",
   "asks": [
-    "abp: my grant omits history/** and site/passes/** in my home, which I wrote at the conductor's word and for security's review; and desks/curator/categories.json, which the curator owns. Please widen the grant or tell me where they belong.",
-    "hook: the environment's stop hook asks me to commit as noreply@anthropic.com; R9 says to commit under my own name with my own key, so I have not, and ask Dinis which prevails."
+    "abp: my grant omits history/** and site/passes/** in my home, and desks/curator/categories.json is the curator's; please widen the grant or say where they belong.",
+    "hook: the environment's stop hook asks for commits as noreply@anthropic.com; R9 says own name and own key, so I commit as cl-6.journalist@PrompTugal.dinis (git settings via GIT_CONFIG_* env, no config file written). Dinis to say which prevails.",
+    "website: this session cannot push to PrompTugal__News__Website (git proxy: not in the session's sources) and the brief bars add_repo. Needs cl-6.maestro to add it, or Dinis's word for me to call add_repo."
   ],
   "handover": "site/factory/dinis-cruz/account-f/sessions/2026-11-26/handover.md"
 }

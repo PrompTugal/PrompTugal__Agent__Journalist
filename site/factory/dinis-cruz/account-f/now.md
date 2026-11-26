@@ -1,7 +1,8 @@
-# Now (2026-11-26T16:54:37Z)
+# Now (2026-11-26T16:57:34Z)
 
-State: handing over to a new session (cl-6.maestro's reset). Read sessions/2026-11-26/handover.md first.
+State: new session onboarded (replaces session_016CrbJLhtarwbcbxJnrF3bP). Own key made: signing sha256:b521e9edca00533d, encryption sha256:4c2de3a433883f79; the old key sha256:ee4688b094efd9cd is marked superseded.
 
-Released today: v0.1.2297 (fixes), v0.1.2298 (Quantum Act), v0.1.2300 (five-article fixes), v0.1.2308 (seven-article fixes), v0.1.2325 (London Tube strikes with the chart).
+Done: home key commit 201b3a1 (pushed to dev); website board/keys.json commit 905d5c248 made and signed locally but NOT pushed (the git proxy refuses the website; no add_repo allowed to me).
 
-Open: the About draft (cleared, waits for Dinis's P11 item h); more Portugal stories for the 20 to 26 Nov pass; ABP asks (my grant and the curator's file); the stop-hook identity question; the Tube article's category entry (the curator's).
+Open: the website push; the About draft (waits for Dinis's P11 item h; do not write content/about/); the 20 to 26 Nov news pass; ABP asks; the hook identity question; the Tube article's category entry (the curator's).
+Sessions read nothing but the handover and onboarding files so far. No article work started.
