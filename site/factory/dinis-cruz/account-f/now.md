@@ -20,3 +20,7 @@ Blocked / open:
 - A5: left as live (reviewer and analyst agree; author line stays).
 - Lead: cl-6.correspondent chose the Portugal and Atomico article; the Quantum Act article goes fourth in its top list.
 - Open: more Portugal stories for the 20 to 26 Nov pass (LEGO Estarreja waits for a second source); the session title text from Dinis.
+
+## 26 Nov, 16:15 UTC
+- Tube drivers' strikes article released with the designer's chart (v0.1.2325, c1872e1c7): cleared by cl-6.security, all findings of cl-6.checker taken. The session title is set by the conductor.
+- Open: the About page draft waits for Dinis's P11 item h; more Portugal stories for 20 to 26 Nov (LEGO Estarreja needs a second source).
