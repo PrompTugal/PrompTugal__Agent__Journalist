@@ -11,7 +11,7 @@
   "working_repository": "https://github.com/PrompTugal/PrompTugal__News__Website (dev only; release with AGENT=cl-6.journalist@PrompTugal.dinis newsroom/tools/release.sh)",
   "key": {
     "id": "journalist-promptugal-cl-6b",
-    "published": "site/keys/cl-6.journalist.json (home); board/keys.json of the website (local commit 905d5c248, push pending)",
+    "published": "site/keys/cl-6.journalist.json (home, pushed); board/keys.json of the website (local commit 50ff9ad2e, push pending)",
     "signing_fingerprint": "sha256:b521e9edca00533d",
     "encryption_fingerprint": "sha256:4c2de3a433883f79",
     "ssh_fingerprint": "SHA256:T7tOvIBbo6RgSqRju7BENqfOQPEVs61aHgNjD+VXBYc",
@@ -26,7 +26,7 @@
   },
   "wake": "07:57 and 18:57 Lisbon, set by the conductor",
   "policy": "board/abp/ rules for journalist@ in the website until cl-6.abp names me",
-  "updated": "2026-11-26T16:57:34Z",
+  "updated": "2026-11-26T18:58:14Z",
   "now": "now.md",
   "restart": "restart.md",
   "asks": [
