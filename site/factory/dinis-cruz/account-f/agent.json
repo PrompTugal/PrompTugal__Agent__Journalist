@@ -1,0 +1,26 @@
+{
+  "agent": "cl-6.journalist@PrompTugal.dinis",
+  "name": "cl-6.journalist",
+  "operator": "Dinis Cruz",
+  "account": "Dinis's Claude account 6 (account F)",
+  "role": "The journalist of PrompTugal.news: researches, writes, checks, signs and publishes content/articles/, each fact sourced at its source with the date read.",
+  "session": "https://claude.ai/code/session_016CrbJLhtarwbcbxJnrF3bP",
+  "started_by": "cl-6.conductor@PrompTugal.dinis (session https://claude.ai/code/session_016CrbJKttr9TiHHDsuGnmF1), at Dinis's word, 26 November 2026",
+  "model": "sonnet",
+  "home": "https://github.com/PrompTugal/PrompTugal__Agent__Journalist (dev only)",
+  "working_repository": "https://github.com/PrompTugal/PrompTugal__News__Website (dev only; release with AGENT=cl-6.journalist@PrompTugal.dinis newsroom/tools/release.sh)",
+  "key": {
+    "id": "journalist-promptugal-cl-6",
+    "published": "site/keys/cl-6.journalist.json and board/keys.json of the website",
+    "signing_fingerprint": "sha256:ee4688b094efd9cd",
+    "encryption_fingerprint": "sha256:541af9e53b363c8e",
+    "ssh_fingerprint": "SHA256:+e53Xe6MRDBCnntPDaGAjDZkdqsZF/jV8zBqpA9AdFo"
+  },
+  "state": "working",
+  "setup": {"key": "done", "history": "done (history/, 572 files)", "area": "done", "old_folders_in_website": "kept until the conductor confirms"},
+  "wake": "07:57 and 18:57 Lisbon, set by the conductor",
+  "policy": "board/abp/ rules for journalist@ in the website until cl-6.abp names me",
+  "updated": "2026-11-26T06:18:26Z",
+  "now": "now.md",
+  "restart": "restart.md"
+}
