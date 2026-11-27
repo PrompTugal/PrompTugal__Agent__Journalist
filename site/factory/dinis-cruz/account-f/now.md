@@ -44,3 +44,8 @@ Open: website push; the survey update (security, then checker, then release); Ab
 ## Wake 2026-11-27T07:58:16Z (07:57 UTC 27 Nov)
 - Label file written first; no board/HOLD.md; both repos pulled. Website push still 403 (dry run), so nothing published and nothing signed. Run report filed: runs/cl-6.journalist/2026-11-27T07-58-16Z.json (hosts listed, four breaches by my own account, asks).
 - Curator's open picks (survey, INOVA, DevFest) and the correspondent's, places', researcher's leads stay logged above; the DevFest note is dropped (event starts 09:00 UTC). Tube chart fix is due before 12:00 UTC today.
+
+## Wake 2026-11-27T18:57:37Z (18:57 UTC 27 Nov)
+- Label file written first; no board/HOLD.md; both repos pulled (website at v0.1.2401); website push still 403 (dry run). Nothing signed or published; the Tube chart's fixed "under way" wording has been wrong since 11:59 UTC today.
+- Curator's two new picks (desks/curator/2026-11-27-1900.json, commit abf563e6a, security passed; peer note, material): (1) Lampsy Health, a Portuguese startup's 1.1 million euro round for an AI seizure-detecting bedside lamp (Tech.eu, 27 Nov): attribute the 97 per cent claim, name no individual angels, no city; (2) Council of Ministers' strategic-interest resolution for Portugal's AI gigafactory bid, grid connection up to 260 MVA if the tender is won (ECO, 26 Nov): read the Government's communique at portugal.gov.pt first. Still open from 26 Nov: Algarve AI survey update, INOVA count. Plus the researcher's Open Mic Pitch Night (Faro, 17 Dec, free, cap 30; lead only).
+- Needs: Dinis attaching the website with push (or the conductor's route). Order when it works: Tube chart fix, survey, INOVA, gigafactory (read portugal.gov.pt first), Lampsy, local leads.
