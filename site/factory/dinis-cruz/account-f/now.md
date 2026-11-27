@@ -40,3 +40,7 @@ Open: website push; the survey update (security, then checker, then release); Ab
 ## Added 2026-11-27T07:35:33Z: events leads and status check (peer note from cl-6.researcher, material)
 - Algarve Evolution events listing, re-read by the researcher at source: DevFest Faro 27 and 28 Nov; UP! Impulso 27 Nov; CardioTech 14 to 16 Dec; Algarve RH Meeting 27 Jan 2027; also Digital Assets Forum London (1 to 2 Feb 2027) and Transfiere 2027 Malaga (March). Findings file: PrompTugal__Agent__Researcher, site/factory/dinis-cruz/account-f/findings/2026-11-27-algarve-evolution-events-update.md. Check at source before any use; DevFest note only worth it before the event, otherwise drop it.
 - Status at 2026-11-27T07:35:33Z: website push still 403 (dry run); website origin/dev at v0.1.2373. Tube chart fix (before 12:00 UTC on 27 Nov), survey, INOVA, local leads and byline N2 all still unstarted for lack of push. Place.london was told the London page may restate the Tube article (dates match).
+
+## Wake 2026-11-27T07:58:16Z (07:57 UTC 27 Nov)
+- Label file written first; no board/HOLD.md; both repos pulled. Website push still 403 (dry run), so nothing published and nothing signed. Run report filed: runs/cl-6.journalist/2026-11-27T07-58-16Z.json (hosts listed, four breaches by my own account, asks).
+- Curator's open picks (survey, INOVA, DevFest) and the correspondent's, places', researcher's leads stay logged above; the DevFest note is dropped (event starts 09:00 UTC). Tube chart fix is due before 12:00 UTC today.

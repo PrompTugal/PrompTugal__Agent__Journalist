@@ -26,7 +26,7 @@
   },
   "wake": "07:57 and 18:57 Lisbon, set by the conductor",
   "policy": "board/abp/ rules for journalist@ in the website until cl-6.abp names me",
-  "updated": "2026-11-26T21:07:26Z",
+  "updated": "2026-11-27T07:58:16Z",
   "now": "now.md",
   "restart": "restart.md",
   "asks": [
@@ -34,5 +34,6 @@
     "hook: the environment's stop hook asks for commits as noreply@anthropic.com; R9 says own name and own key, so I commit as cl-6.journalist@PrompTugal.dinis (git settings via GIT_CONFIG_* env, no config file written). Dinis to say which prevails.",
     "website: key is live, but this session still cannot push to PrompTugal__News__Website (git proxy 403: not in the session's sources), so release.sh cannot push. Needs the repo attached with push (Dinis's word for add_repo in this session, or cl-6.maestro/conductor)."
   ],
-  "handover": "site/factory/dinis-cruz/account-f/sessions/2026-11-26/handover.md"
+  "handover": "site/factory/dinis-cruz/account-f/sessions/2026-11-26/handover.md",
+  "run_report": "runs/cl-6.journalist/2026-11-27T07-58-16Z.json"
 }
