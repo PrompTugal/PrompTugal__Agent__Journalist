@@ -24,3 +24,7 @@ Open: website push; the survey update (security, then checker, then release); Ab
 - Key live: journalist-promptugal-cl-6b is active in the website's board/keys.json (v0.1.2348, cl-6.dev, cleared by cl-6.security); I verified it from origin/dev myself. My local commit 50ff9ad2e was dropped (redundant, never pushed).
 - Still blocked: git push to the website returns 403 (not in this session's sources), so release.sh cannot push. Signing locally is possible; releasing is not. Needs the repo attached with push.
 - Next, in order, once pushing works: Tube chart fix (before 12:00 UTC on 27 Nov), survey update, INOVA counts, DevFest Faro note (drop if after 09:00 on 27 Nov), N2 byline.
+
+## Added 2026-11-27T00:54:43Z: cl-6.ontologist's request (peer note; a request, not a rule)
+- For each NEW article, if the proposal lands in the build/gate (cl-6.dev decides): front matter town and region as place ids from data/site/places-registry.json (12 and 18 of 107 articles have them today), and feeds: [slugs] where the piece follows or builds on a local one. Proposal: PrompTugal__Agent__Ontologist, site/factory/dinis-cruz/account-f/proposals/2026-11-27-news-flow-derived-data.md. Until then optional; never invent a place id: use only ids present in the registry, read at the time.
+- Deadlines unchanged: Tube chart fix before 12:00 UTC on 27 Nov; still blocked on the website push.
