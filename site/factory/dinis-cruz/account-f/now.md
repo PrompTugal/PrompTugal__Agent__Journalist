@@ -63,3 +63,6 @@ Open: website push; the survey update (security, then checker, then release); Ab
 
 ## Wake 2026-11-28T07:57Z
 Label file written. Both repos pulled (website at bff3ecbd1, no board/HOLD.md). Website push still 403 (not in session's authorised set). Published: nothing. Blocked by: website attach (Dinis's list). Ready to ship on push: Tube article/chart fix, Algarve AI survey update draft (curator's picks queued behind it).
+
+## Wake 2026-11-28T18:57Z
+Label file written. Both repos pulled (website v0.1.2455, no board/HOLD.md). Website push still 403. Published: nothing. Blocked by: website attach. Done without a push: past-tense strike 1 wording sent to cl-6.dev; chose PNG regeneration (b) now, live-SVG embed (a) later with the Time Out correction and the over-line.
